@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/CoordGeodetic.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/CoordGeodetic.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/CoordGeodetic.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/CoordTopocentric.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/CoordTopocentric.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/CoordTopocentric.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/DateTime.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/DateTime.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/DateTime.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/DecayedException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/DecayedException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/DecayedException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Eci.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Eci.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Eci.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Globals.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Globals.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Globals.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Observer.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Observer.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Observer.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/OrbitalElements.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/OrbitalElements.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/OrbitalElements.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/SGP4.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SGP4.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SGP4.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/SatelliteException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SatelliteException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SatelliteException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/SolarPosition.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SolarPosition.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SolarPosition.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/TimeSpan.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/TimeSpan.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/TimeSpan.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Tle.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Tle.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Tle.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/TleException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/TleException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/TleException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Util.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Util.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Util.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sgp4.dir/Vector.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Vector.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Vector.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/CoordGeodetic.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/CoordGeodetic.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/CoordGeodetic.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/CoordTopocentric.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/CoordTopocentric.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/CoordTopocentric.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/DateTime.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/DateTime.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/DateTime.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/DecayedException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/DecayedException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/DecayedException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Eci.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Eci.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Eci.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Globals.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Globals.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Globals.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Observer.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Observer.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Observer.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/OrbitalElements.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/OrbitalElements.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/OrbitalElements.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/SGP4.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SGP4.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SGP4.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/SatelliteException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SatelliteException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SatelliteException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/SolarPosition.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/SolarPosition.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/SolarPosition.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/TimeSpan.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/TimeSpan.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/TimeSpan.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Tle.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Tle.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Tle.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/TleException.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/TleException.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/TleException.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Util.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Util.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Util.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/libsgp4",
+  "command": "/usr/bin/c++ -Dsgp4s_EXPORTS -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -fPIC -std=c++17 -o CMakeFiles/sgp4s.dir/Vector.cc.o -c /home/miman/sgs/back/lib/sgp4/libsgp4/Vector.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/libsgp4/Vector.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/sattrack",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/sattrack.dir/sattrack.cc.o -c /home/miman/sgs/back/lib/sgp4/sattrack/sattrack.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/sattrack/sattrack.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/runtest",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/runtest.dir/runtest.cc.o -c /home/miman/sgs/back/lib/sgp4/runtest/runtest.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/runtest/runtest.cc"
+},
+{
+  "directory": "/home/miman/sgs/back/lib/sgp4/passpredict",
+  "command": "/usr/bin/c++  -I/home/miman/sgs/back/lib/sgp4/libsgp4  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -Wno-long-long -Wcast-align -Wsign-conversion -std=c++17 -o CMakeFiles/passpredict.dir/passpredict.cc.o -c /home/miman/sgs/back/lib/sgp4/passpredict/passpredict.cc",
+  "file": "/home/miman/sgs/back/lib/sgp4/passpredict/passpredict.cc"
+}
+]

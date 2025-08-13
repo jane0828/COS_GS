@@ -1,0 +1,14 @@
+  0x0000 freq            U32 436500000 
+  0x0004 baud            U32 4800 
+  0x0008 modindex        FLT 0.000000 
+  0x000C guard           U16 0 
+  0x000E pllrang         U8  9 
+  0x000F mode            U8  5 
+  0x0010 csp_hmac        BL  false 
+  0x0011 csp_rs          BL  true 
+  0x0012 csp_crc         BL  true 
+  0x0013 csp_rand        BL  true 
+  0x0020 csp_hmac_key    DAT 00000000000000000000000000000000 
+  0x0030 ax25_call       STR "      " 
+  0x0040 bw              U32 0 
+  0x0044 afcrange        I32 -4 

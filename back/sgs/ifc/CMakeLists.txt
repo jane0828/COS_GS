@@ -1,0 +1,86 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 3.10.0 )
+
+PROJECT(ifc)
+
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ./cmake)
+
+INCLUDE_DIRECTORIES (/usr/local/include)
+INCLUDE_DIRECTORIES (/usr/include)
+
+INCLUDE_DIRECTORIES (${SSGS_UTL_PATH})
+INCLUDE_DIRECTORIES (${SSGS_IFC_PATH})
+
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH})
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/libsgp4)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/build)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libparam_client/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/build/lib/libgscsp/lib/libcsp/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libutil/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libgscsp/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libgscsp/lib/libcsp/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libgscsp/lib/libcsp/src)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/build/lib/libgscsp/lib/libcsp/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libfp_client/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libftp_client/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/gscsp/lib/libgosh_client/include)
+INCLUDE_DIRECTORIES (${SSGS_LIB_PATH}/websocktapp)
+
+FIND_PACKAGE(Threads REQUIRED)
+if(NOT Threads_FOUND)
+    message(FATAL_ERROR "Threads Not Found.")
+endif()
+INCLUDE_DIRECTORIES( ${THREADS_INCLUDE_DIRS} )
+
+FIND_PACKAGE(CURL REQUIRED)
+if(NOT CURL_FOUND)
+    message(FATAL_ERROR "CURL Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${CURL_INCLUDE_DIRS})
+
+FIND_PACKAGE(Boost REQUIRED COMPONENTS system thread)
+if(NOT Boost_FOUND)
+    message(FATAL_ERROR "Boost Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
+
+FIND_PACKAGE(OpenSSL REQUIRED)
+if(NOT OPENSSL_FOUND)
+    message(FATAL_ERROR "OpenSSL Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${OpenSSL_INCLUDE_DIRS})
+
+FIND_PACKAGE(PkgConfig REQUIRED)
+if(NOT PkgConfig_FOUND)
+    message(FATAL_ERROR "PkgConfig Not Found.")
+endif()
+
+pkg_check_modules(JSONCPP REQUIRED jsoncpp)
+INCLUDE_DIRECTORIES(${JSONCPP_INCLUDE_DIRS})
+
+pkg_check_modules(MySQL REQUIRED mysqlclient)
+INCLUDE_DIRECTORIES(${MySQL_INCLUDE_DIRS})
+
+LINK_DIRECTORIES(${SSGS_BIN_PATH})
+
+FILE(GLOB_RECURSE IFC_SRC 
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp" 
+)
+
+ADD_LIBRARY(IFC SHARED ${IFC_SRC})
+ADD_DEPENDENCIES(IFC UTL)
+TARGET_LINK_LIBRARIES(IFC
+    ${CURL_LIBRARIES}
+    pthread
+    Boost::system
+    Boost::thread
+    OpenSSL::SSL
+    OpenSSL::Crypto
+    ${JSONCPP_LIBRARIES}
+    ${MySQL_LIBRARIES}
+    ${SSGS_BIN_PATH}/libsgp4s.so
+    ${SSGS_BIN_PATH}/libcsp-client.so
+    ${SSGS_BIN_PATH}/libUTL.so
+)
+set_target_properties(IFC PROPERTIES
+    LIBRARY_OUTPUT_DIRECTORY "${SSGS_BIN_PATH}"
+)

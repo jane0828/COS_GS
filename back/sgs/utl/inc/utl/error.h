@@ -1,0 +1,15 @@
+#ifndef _UTL_ERROR_H_
+#define _UTL_ERROR_H_
+
+typedef enum {
+    SGS_OK,
+    SGS_ERROR_NULL,
+    SGS_ERROR_NOT_FOUND,
+    SGS_ERROR_NOT_CONNECTED,
+    SGS_ERROR_BUSY,
+    SGS_ERROR_RANGE,
+    SGS_ERROR_INVALID_PARAMETER,
+    SGS_ERROR_INVALID_FORMAT,
+}sgs_err_n;
+
+#endif

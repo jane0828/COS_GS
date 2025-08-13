@@ -1,0 +1,9 @@
+[submodule "lib/gscsp"]
+	path = lib/gscsp
+	url = http://aclnas-ddns.synology.me:49002/zzttit/libgscsp
+[submodule "lib/sgp4"]
+	path = lib/sgp4
+	url = https://github.com/dnwrnr/sgp4
+[submodule "lib/websocktapp"]
+	path = lib/websocktapp
+	url = https://github.com/zaphoyd/websocketpp.git

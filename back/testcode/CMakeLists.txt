@@ -1,0 +1,115 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 3.10.0 )
+
+PROJECT(TestEnvExe)
+
+# For Debugging
+# SET(CMAKE_VERBOSE_MAKEFILE TRUE)
+# SET( CMAKE_C_FLAGS_DEBUG "-DDEBUG -DC_FLAGS" )
+# SET( CMAKE_EE_LINKER_FLAGS_DEBUG "-DDEBUG -DLINKER_FLAGS" )
+
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ./cmake)
+
+# Deprecated Since V3.0
+# SET(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+# SET(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+# SET(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+# SET(OPENGL_GL_PREFERENCE LEGACY)
+# SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-address-of-packed-member -Wno-int-to-pointer-cast -Wno-pointer-arith")
+# SET(CMAKE_VERBOSE_MAKEFILE OFF)
+# add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+# add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
+
+SET(TEST_DEPEND_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/..")
+
+INCLUDE_DIRECTORIES (/usr/local/include)
+INCLUDE_DIRECTORIES (/usr/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/config)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/sgp4)
+# Deprecated Since V3.0
+# INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/imgui)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/build)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libparam_client/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libutil/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libgscsp/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libgscsp/lib/libcsp/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libgscsp/lib/libcsp/src)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/build/lib/libgscsp/lib/libcsp/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libfp_client/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libftp_client/include)
+INCLUDE_DIRECTORIES (${TEST_DEPEND_ROOT}/lib/gscsp/lib/libgosh_client/include)
+
+FIND_PACKAGE(Threads REQUIRED)
+if(NOT Threads_FOUND)
+    message(FATAL_ERROR "Threads Not Found.")
+endif()
+INCLUDE_DIRECTORIES( ${THREADS_INCLUDE_DIRS} )
+
+FIND_PACKAGE(CURL REQUIRED)
+if(NOT CURL_FOUND)
+    message(FATAL_ERROR "CURL Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${CURL_INCLUDE_DIRS})
+
+# Deprecated Since V3.0
+
+# FIND_PACKAGE(glfw3 REQUIRED)
+# INCLUDE_DIRECTORIES( ${glfw3_INCLUDE_DIRS} )
+
+# FIND_PACKAGE(OpenGL REQUIRED)
+# INCLUDE_DIRECTORIES( ${OpenGL_INCLUDE_DIRS} )
+
+# FIND_PACKAGE(GLEW REQUIRED)
+# INCLUDE_DIRECTORIES( ${GLEW_INCLUDE_DIRS} )
+
+# FIND_PACKAGE(glbinding REQUIRED)
+# INCLUDE_DIRECTORIES( ${glbinding_INCLUDE_DIRS} )
+
+# FIND_PACKAGE(MySQL REQUIRED)
+# INCLUDE_DIRECTORIES( ${MySQL_INCLUDE_DIRS} )
+
+# FIND_PACKAGE(Vulkan REQUIRED)
+# include_directories( ${Vulkan_INCLUDE_DIRS} )
+
+FIND_PACKAGE(Boost REQUIRED COMPONENTS system thread)
+if(NOT Boost_FOUND)
+    message(FATAL_ERROR "Boost Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
+
+FIND_PACKAGE(OpenSSL REQUIRED)
+if(NOT OPENSSL_FOUND)
+    message(FATAL_ERROR "OpenSSL Not Found.")
+endif()
+INCLUDE_DIRECTORIES(${OpenSSL_INCLUDE_DIRS})
+
+FIND_PACKAGE(PkgConfig REQUIRED)
+if(NOT PkgConfig_FOUND)
+    message(FATAL_ERROR "PkgConfig Not Found.")
+endif()
+pkg_check_modules(JSONCPP REQUIRED jsoncpp)
+INCLUDE_DIRECTORIES(${JSONCPP_INCLUDE_DIRS})
+
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/lib/websocketapp)
+
+FILE(GLOB_RECURSE TestEnvExe_SRC 
+    "${CMAKE_CURRENT_SOURCE_DIR}/gettablelist.cpp"
+)
+
+ADD_EXECUTABLE(TestEnvExe ${TestEnvExe_SRC})
+TARGET_LINK_LIBRARIES(TestEnvExe
+    ${CURL_LIBRARIES}
+    pthread
+    Boost::system
+    Boost::thread
+    OpenSSL::SSL
+    OpenSSL::Crypto
+    ${JSONCPP_LIBRARIES}
+)
+
+TARGET_LINK_LIBRARIES(TestEnvExe ${TEST_DEPEND_ROOT}/bin/libsgp4s.so)
+# TARGET_LINK_LIBRARIES(TestEnvExe ${TEST_DEPEND_ROOT}/lib/imgui/libimgui.a)
+TARGET_LINK_LIBRARIES(TestEnvExe ${TEST_DEPEND_ROOT}/bin/libcsp-client.so)
+
+TARGET_COMPILE_OPTIONS(TestEnvExe PRIVATE -Wall -g)

@@ -1,0 +1,3 @@
+/home/miman/SGS/sgs/utl/CMakeFiles/UTL.dir
+/home/miman/SGS/sgs/utl/CMakeFiles/edit_cache.dir
+/home/miman/SGS/sgs/utl/CMakeFiles/rebuild_cache.dir

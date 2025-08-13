@@ -1,0 +1,3 @@
+/home/miman/SGS/testcode/CMakeFiles/TestEnvExe.dir
+/home/miman/SGS/testcode/CMakeFiles/edit_cache.dir
+/home/miman/SGS/testcode/CMakeFiles/rebuild_cache.dir

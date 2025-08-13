@@ -1,0 +1,15 @@
+/home/miman/sgs/back/sgs/CMakeFiles/ServerSGS.dir
+/home/miman/sgs/back/sgs/CMakeFiles/edit_cache.dir
+/home/miman/sgs/back/sgs/CMakeFiles/rebuild_cache.dir
+/home/miman/sgs/back/sgs/utl/CMakeFiles/UTL.dir
+/home/miman/sgs/back/sgs/utl/CMakeFiles/edit_cache.dir
+/home/miman/sgs/back/sgs/utl/CMakeFiles/rebuild_cache.dir
+/home/miman/sgs/back/sgs/ifc/CMakeFiles/IFC.dir
+/home/miman/sgs/back/sgs/ifc/CMakeFiles/edit_cache.dir
+/home/miman/sgs/back/sgs/ifc/CMakeFiles/rebuild_cache.dir
+/home/miman/sgs/back/sgs/dcs/CMakeFiles/DCS.dir
+/home/miman/sgs/back/sgs/dcs/CMakeFiles/edit_cache.dir
+/home/miman/sgs/back/sgs/dcs/CMakeFiles/rebuild_cache.dir
+/home/miman/sgs/back/sgs/gts/CMakeFiles/GTS.dir
+/home/miman/sgs/back/sgs/gts/CMakeFiles/edit_cache.dir
+/home/miman/sgs/back/sgs/gts/CMakeFiles/rebuild_cache.dir
