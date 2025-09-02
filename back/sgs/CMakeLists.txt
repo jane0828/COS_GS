@@ -59,6 +59,12 @@ FIND_PACKAGE(PkgConfig REQUIRED)
 if(NOT PkgConfig_FOUND)
     message(FATAL_ERROR "PkgConfig Not Found.")
 endif()
+
+find_library(SOCKETCAN_LIB socketcan)
+if(NOT SOCKETCAN_LIB)
+    message(FATAL_ERROR "libsocketcan not found. Install libsocketcan-dev")
+endif()
+
 pkg_check_modules(JSONCPP REQUIRED jsoncpp)
 INCLUDE_DIRECTORIES(${JSONCPP_INCLUDE_DIRS})
 pkg_check_modules(MySQL REQUIRED mysqlclient)
@@ -90,6 +96,7 @@ TARGET_LINK_LIBRARIES(ServerSGS
     ${SSGS_BIN_PATH}/libIFC.so
     ${SSGS_BIN_PATH}/libDCS.so
     ${SSGS_BIN_PATH}/libGTS.so
+    ${SOCKETCAN_LIB} 
 )
 
 TARGET_COMPILE_OPTIONS(ServerSGS PRIVATE -Wall -g)

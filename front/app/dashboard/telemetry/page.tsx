@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from "react";
+import React, { useEffect, useMemo, useRef,useState } from 'react';
 import { ChevronDown, ChevronUp, ChevronsUpDown } from "lucide-react";
 const predefinedUrls = [
   { name: "Active", url: "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle" },
@@ -189,108 +189,166 @@ async function fetchBeaconData() {
   return response.json();
 }
 
-export function GS_BeaconTable({ className = "" }) {
-  const [beaconData, setBeaconData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [beaconNo, setBeaconNo] = useState(""); // Beacon No. 저장
+type BeaconRow = {
+  application: string;
+  part: string;
+  telemetry: string;
+  value: string | number | null;
+  created_at: string;   // ISO
+  app_order: number | null;
+  part_order: number | null;
+  telm_order: number | null;
+};
+
+export function GS_BeaconTable({ className = '' }) {
+  const [rows, setRows] = useState<BeaconRow[] | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [isFetching, setIsFetching] = useState(false);
+  const lastUpdatedRef = useRef<Date | null>(null);
 
   useEffect(() => {
-    const updateData = async () => {
+    let cancelled = false;
+    const load = async () => {
       try {
-        const response = await fetch("/api/beacon");
-        if (!response.ok) throw new Error("Failed to fetch beacon data");
-        const data = await response.json();
-
-        // CallSign 변환
-        const callSignKeys = ["CallSign_1", "CallSign_2", "CallSign_3", "CallSign_4", "CallSign_5", "CallSign_6"];
-        const callSignStr = callSignKeys.map((key) => String.fromCharCode(data[key])).join("").trim();
-
-        // "No" 필드를 Beacon No. 값으로 저장하고, 데이터에서 제거
-        const beaconNumber = data["No"];
-        delete data["No"];
-
-        // 새로운 객체 생성
-        const processedData = {
-          CallSign: callSignStr, // 변환된 콜사인
-          ...data,
-        };
-
-        // 기존 CallSign_1 ~ CallSign_6 제거
-        callSignKeys.forEach((key) => delete processedData[key]);
-
-        setBeaconNo(beaconNumber);
-        setBeaconData(processedData);
-        setLoading(false);
-      } catch (err) {
-        setError(err.message);
-        setLoading(false);
+        setIsFetching(true);
+        const res = await fetch('/api/beacon', { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data: BeaconRow[] = await res.json();
+        data.sort((a, b) => {
+          const ao = (a.app_order ?? 0) - (b.app_order ?? 0);
+          if (ao !== 0) return ao;
+          const po = (a.part_order ?? 0) - (b.part_order ?? 0);
+          if (po !== 0) return po;
+          const to = (a.telm_order ?? 0) - (b.telm_order ?? 0);
+          if (to !== 0) return to;
+          return a.telemetry.localeCompare(b.telemetry);
+        });
+        if (!cancelled) {
+          setRows(data);
+          setError(null);
+          lastUpdatedRef.current = new Date();
+        }
+      } catch (e: any) {
+        if (!cancelled) setError(e?.message ?? 'Failed to fetch');
+      } finally {
+        if (!cancelled) setIsFetching(false);
       }
     };
-
-    updateData();
-    const interval = setInterval(updateData, 5000); // 5초마다 업데이트
-    return () => clearInterval(interval);
+    load();
+    const t = setInterval(load, 2000);
+    return () => {
+      cancelled = true;
+      clearInterval(t);
+    };
   }, []);
 
+  const grouped = useMemo(() => {
+    if (!rows) return [];
+    // Application → Parts → Items 로 그룹핑 + rowSpan 계산용 카운트
+    const byApp = new Map<
+      string,
+      { app: string; total: number; parts: Array<{ part: string; items: BeaconRow[] }> }
+    >();
+
+    for (const r of rows) {
+      const appKey = r.application;
+      if (!byApp.has(appKey)) byApp.set(appKey, { app: appKey, total: 0, parts: [] });
+      const appObj = byApp.get(appKey)!;
+
+      let partObj = appObj.parts.find((p) => p.part === r.part);
+      if (!partObj) {
+        partObj = { part: r.part, items: [] };
+        appObj.parts.push(partObj);
+      }
+      partObj.items.push(r);
+      appObj.total += 1;
+    }
+
+    // 배열로 변환(원래 정렬 보존됨)
+    return Array.from(byApp.values());
+  }, [rows]);
+
+  const isNumeric = (v: any) =>
+    typeof v === 'number' || (typeof v === 'string' && v.trim() !== '' && !isNaN(Number(v)));
+  
   return (
     <div className={`${className}`}>
-      {loading ? (
-        <p className="text-gray-400">Loading...</p>
-      ) : error ? (
-        <p className="text-red-500">{error}</p>
-      ) : beaconData ? (
-        <div className="overflow-auto border border-gray-600 rounded-md">
-          <table className="w-full border-collapse">
-            {/* 테이블 헤더 */}
-            <thead>
-              <tr>
-                <th colSpan="6" className="border border-gray-600 px-4 py-2 text-center bg-gray-700 text-white text-xl font-bold">
-                  Beacon No.
-                  <span className="mx-2 text-yellow-400 text-2xl font-extrabold">{beaconNo}</span>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {(() => {
-                const entries = Object.entries(beaconData);
-                const rows = [];
-
-                // 2열씩 한 행에 배치 (필드명, 값 반복)
-                for (let i = 0; i < entries.length; i += 3) {
-                  rows.push(
-                    <tr key={i} className="hover:bg-gray-600 text-white">
-                      {Array.from({ length: 3 }).map((_, j) => {
-                        const index = i + j;
-                        if (index < entries.length) {
-                          const [key, value] = entries[index];
-                          return (
-                            <>
-                              <td className="border border-gray-600 px-4 py-2 text-left text-gray-300 w-2/3">{key}</td> {/* 홀수열 - 일반 글씨, 넓은 칸 */}
-                              <td className="border border-gray-600 px-4 py-2 text-center text-blue-400 font-bold w-1/3">{value}</td> {/* 짝수열 - 볼드, 파란색 */}
-                            </>
-                          );
-                        } else {
-                          // 빈 셀 추가 (열 맞추기)
-                          return (
-                            <>
-                              <td className="border border-gray-600 px-4 py-2 w-2/3"></td>
-                              <td className="border border-gray-600 px-4 py-2 w-1/3"></td>
-                            </>
-                          );
-                        }
-                      })}
-                    </tr>
-                  );
-                }
-                return rows;
-              })()}
-            </tbody>
-          </table>
+      <div className="mb-2 flex items-center justify-between">
+        <h2 className="text-white font-semibold">COSMIC Telemetry (latest)</h2>
+        <div className="text-sm">
+          {isFetching ? (
+            <span className="text-blue-300">Updating…</span>
+          ) : lastUpdatedRef.current ? (
+            <span className="text-gray-400">Updated: {lastUpdatedRef.current.toLocaleTimeString()}</span>
+          ) : null}
+          {error ? <span className="ml-2 text-red-400">({error})</span> : null}
         </div>
-      ) : (
-        <p className="text-gray-400 text-center">No data available</p>
-      )}
+      </div>
+
+      <div className="overflow-auto border border-gray-600 rounded-md">
+        <table className="w-full border-collapse">
+          <thead className="sticky top-0 bg-gray-700 text-white">
+            <tr>
+              <th className="border border-gray-600 px-4 py-2 text-left">Application</th>
+              <th className="border border-gray-600 px-4 py-2 text-left">Part</th>
+              <th className="border border-gray-600 px-4 py-2 text-left">Telemetry</th>
+              <th className="border border-gray-600 px-4 py-2 text-right">Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {!rows ? (
+              Array.from({ length: 10 }).map((_, i) => (
+                <tr key={i} className="animate-pulse">
+                  <td className="border border-gray-600 px-4 py-3"><div className="h-4 bg-gray-700 rounded" /></td>
+                  <td className="border border-gray-600 px-4 py-3"><div className="h-4 bg-gray-700 rounded" /></td>
+                  <td className="border border-gray-600 px-4 py-3"><div className="h-4 bg-gray-700 rounded" /></td>
+                  <td className="border border-gray-600 px-4 py-3"><div className="h-4 bg-gray-700 rounded" /></td>
+                </tr>
+              ))
+            ) : grouped.length === 0 ? (
+              <tr>
+                <td colSpan={4} className="text-center py-4 text-gray-400">No data</td>
+              </tr>
+            ) : (
+              grouped.flatMap((appGroup, ai) =>
+                appGroup.parts.flatMap((partGroup, pi) =>
+                  partGroup.items.map((item, ii) => {
+                    const isFirstRowOfApp = pi === 0 && ii === 0;
+                    const isFirstRowOfPart = ii === 0;
+                    return (
+                      <tr
+                        key={`${appGroup.app}__${partGroup.part}__${item.telemetry}__${ii}`}
+                        className="hover:bg-gray-600 text-white hover:bg-transparent"
+                      >
+                        {isFirstRowOfApp && (
+                          <td
+                            rowSpan={appGroup.total}
+                            className="border border-gray-600 px-4 py-2 font-bold text-cyan-300 align-top"
+                          >
+                            {appGroup.app}
+                          </td>
+                        )}
+                        {isFirstRowOfPart && (
+                          <td
+                            rowSpan={partGroup.items.length}
+                            className="border border-gray-600 px-4 py-2 font-semibold text-cyan-200 align-top"
+                          >
+                            {partGroup.part}
+                          </td>
+                        )}
+                        <td className="border border-gray-600 px-4 py-2">{item.telemetry}</td>
+                        <td className="border border-gray-600 px-4 py-2 text-right">
+                          {isNumeric(item.value) ? Number(item.value) : String(item.value ?? '')}
+                        </td>
+                      </tr>
+                    );
+                  })
+                )
+              )
+            )}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

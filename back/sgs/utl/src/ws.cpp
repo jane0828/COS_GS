@@ -116,28 +116,47 @@ std::pair<size_t, uint8_t*> SGS_WebSocketClient::ParseHexAsciiJson(const Json::V
 
 // JSON 데이터 처리
 void SGS_WebSocketClient::ReadMessage(const Json::Value& message) {
-    if (!message.isMember("client") || !message.isMember("reqtype")) {
+    // 1) 포맷 A: { "client": "...", "reqtype": "...", "data": {...} }
+    if (message.isMember("client") && message.isMember("reqtype")) {
+        std::string client  = message["client"].asString();
+        std::string reqtype = message["reqtype"].asString();
+
+        // 내 대상이 아니면 무시
+        if (client != this->myname) return;
+
+        Json::Value data;
+        if (message.isMember("data")) data = message["data"];
+
+        auto it = datatypeHandlers.find(reqtype);
+        if (it != datatypeHandlers.end()) {
+            it->second(data);
+        } else {
+            std::cerr << "No handler registered for reqtype: " << reqtype << std::endl;
+        }
+        return;
+    }
+
+    // 2) 포맷 B: { "type": "...", "to": "...", "message": {...} }
+    else if (message.isMember("type") && message.isMember("to") && message.isMember("message")) {
+        std::string to      = message["to"].asString();
+        std::string reqtype = message["type"].asString(); // 예: "private"
+
+        if (to != this->myname) return; // 내 대상이 아니면 무시
+
+        Json::Value data = message["message"]; // payload: { msgid, cc, parameters }
+
+        auto it = datatypeHandlers.find(reqtype);
+        if (it != datatypeHandlers.end()) {
+            it->second(data);
+        } else {
+            std::cerr << "No handler registered for type: " << reqtype << std::endl;
+        }
+        return;
+    }
+
+    // 3) 둘 다 아니면 에러
+    else {
         std::cerr << "Invalid JSON format" << std::endl;
-        return;
-    }
-
-    std::string client = message["client"].asString();
-    std::string reqtype = message["reqtype"].asString();
-    
-    // client가 등록된 client와 다르면 무시
-    if (client != this->myname) {
-        return;
-    }
-
-    Json::Value data;
-    if(message.isMember("data"))
-        data = message["data"];
-
-    // reqtype에 따른 후킹 처리
-    if (datatypeHandlers.find(reqtype) != datatypeHandlers.end()) {
-        datatypeHandlers[reqtype](data);
-    } else {
-        std::cerr << "No handler registered for reqtype: " << reqtype << std::endl;
     }
 }
 
@@ -176,7 +195,7 @@ void SGS_WebSocketClient::SendRequest2Provider(const std::string& reqtype)
 void SGS_WebSocketClient::SendReport(const std::string& client, int retcode)
 {
     Json::Value result;
-    result['retcode'] = retcode;
+    result["retcode"] = retcode;
     return this->SendMessage(client, "report", result);
 }
 

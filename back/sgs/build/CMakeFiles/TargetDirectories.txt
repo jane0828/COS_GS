@@ -1,0 +1,15 @@
+/home/yonghoon/COS_GS/back/sgs/build/CMakeFiles/ServerSGS.dir
+/home/yonghoon/COS_GS/back/sgs/build/CMakeFiles/edit_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/CMakeFiles/rebuild_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/utl/CMakeFiles/UTL.dir
+/home/yonghoon/COS_GS/back/sgs/build/utl/CMakeFiles/edit_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/utl/CMakeFiles/rebuild_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/ifc/CMakeFiles/IFC.dir
+/home/yonghoon/COS_GS/back/sgs/build/ifc/CMakeFiles/edit_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/ifc/CMakeFiles/rebuild_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/dcs/CMakeFiles/DCS.dir
+/home/yonghoon/COS_GS/back/sgs/build/dcs/CMakeFiles/edit_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/dcs/CMakeFiles/rebuild_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/gts/CMakeFiles/GTS.dir
+/home/yonghoon/COS_GS/back/sgs/build/gts/CMakeFiles/edit_cache.dir
+/home/yonghoon/COS_GS/back/sgs/build/gts/CMakeFiles/rebuild_cache.dir
