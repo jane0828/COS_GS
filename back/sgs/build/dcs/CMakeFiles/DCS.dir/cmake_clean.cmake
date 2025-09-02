@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yonghoon/COS_GS/back/bin/libDCS.pdb"
-  "/home/yonghoon/COS_GS/back/bin/libDCS.so"
+  "/home/jane/Desktop/COS_GS/back/bin/libDCS.pdb"
+  "/home/jane/Desktop/COS_GS/back/bin/libDCS.so"
   "CMakeFiles/DCS.dir/src/gs100.cpp.o"
   "CMakeFiles/DCS.dir/src/gs100.cpp.o.d"
   "CMakeFiles/DCS.dir/src/gs232b.cpp.o"

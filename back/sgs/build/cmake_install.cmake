@@ -1,4 +1,4 @@
-# Install script for directory: /home/yonghoon/COS_GS/back/sgs
+# Install script for directory: /home/jane/Desktop/COS_GS/back/sgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yonghoon/COS_GS/back/sgs/build/utl/cmake_install.cmake")
-  include("/home/yonghoon/COS_GS/back/sgs/build/ifc/cmake_install.cmake")
-  include("/home/yonghoon/COS_GS/back/sgs/build/dcs/cmake_install.cmake")
-  include("/home/yonghoon/COS_GS/back/sgs/build/gts/cmake_install.cmake")
+  include("/home/jane/Desktop/COS_GS/back/sgs/build/utl/cmake_install.cmake")
+  include("/home/jane/Desktop/COS_GS/back/sgs/build/ifc/cmake_install.cmake")
+  include("/home/jane/Desktop/COS_GS/back/sgs/build/dcs/cmake_install.cmake")
+  include("/home/jane/Desktop/COS_GS/back/sgs/build/ros/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yonghoon/COS_GS/back/sgs/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jane/Desktop/COS_GS/back/sgs/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

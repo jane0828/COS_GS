@@ -1,4 +1,4 @@
-# Install script for directory: /home/yonghoon/COS_GS/back/sgs/dcs
+# Install script for directory: /home/jane/Desktop/COS_GS/back/sgs/dcs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

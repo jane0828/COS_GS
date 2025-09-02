@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yonghoon/COS_GS/back/bin/libGTS.pdb"
-  "/home/yonghoon/COS_GS/back/bin/libGTS.so"
+  "/home/jane/Desktop/COS_GS/back/bin/libGTS.pdb"
+  "/home/jane/Desktop/COS_GS/back/bin/libGTS.so"
   "CMakeFiles/GTS.dir/src/propagator.cpp.o"
   "CMakeFiles/GTS.dir/src/propagator.cpp.o.d"
   "CMakeFiles/GTS.dir/src/satelliteobject.cpp.o"
