@@ -26,7 +26,7 @@ async function fetchTLEData(url: string) {
   return satellites;
 }
 
-export function GS_TLETable({ className = "" }) {
+function GS_TLETable({ className = "" }) {
   const [tleUrl, setTleUrl] = useState(predefinedUrls[0].url);
   const [satellites, setSatellites] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -200,7 +200,7 @@ type BeaconRow = {
   telm_order: number | null;
 };
 
-export function GS_BeaconTable({ className = '' }) {
+function GS_BeaconTable({ className = '' }) {
   const [rows, setRows] = useState<BeaconRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isFetching, setIsFetching] = useState(false);

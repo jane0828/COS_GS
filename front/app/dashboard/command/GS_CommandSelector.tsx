@@ -32,7 +32,7 @@ export default function GS_CommandSelector({ className = '' }) {
   const wsReady = useRef(false);
 
   useEffect(() => {
-    const ws = new WebSocket('ws://192.168.215.6:4443');
+    const ws = new WebSocket('ws://165.132.142.126:4443');
     wsRef.current = ws;
 
     ws.onopen = () => {

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { orbitron } from "@/app/ui/fonts";
 
-export function GS_SSHPanel({ className = "" }) {
+function GS_SSHPanel({ className = "" }) {
   const [command, setCommand] = useState("");
   const [history, setHistory] = useState<string[]>([]);
 
