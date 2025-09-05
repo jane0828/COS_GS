@@ -7,7 +7,7 @@
 
 #include "ax100.h"
 #include "beacon.h"
-#include "fswcmd.h"
+// #include "fswcmd.h"
 #include "syscmd.h"
 #include "sendrecv.h"
 #include "v670.h"

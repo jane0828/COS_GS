@@ -100,18 +100,21 @@ int TelemetryHandler::dispatch_payload(const uint8_t* payload, size_t len) {
         uint16_t cc = 0;
         std::memcpy(&cc, payload, sizeof(cc));
         // “Beacon 식별자”는 사용자 정책에 맞춰 바꿔도 됨. 여기서는 0xBEAC로 가정.
-        if (cc == (uint16_t)0xBEAC) {
+        cc = le16toh(cc);
+        if (cc == (uint16_t)BEACON_CC_ID) {
             return handle_beacon_direct(payload, len);
         }
         // HK 식별자(미정): 주석으로 가이드만 남김
         // else if (cc == HK_MESSAGE_ID) { return handle_hk_direct(payload, len); }
 
         // 아니라면 (미래) CSP가 앞에 있을 수도 있으니 CSP 경로 시도
-        return handle_csp_then_dispatch(payload, len);
+        // return handle_csp_then_dispatch(payload, len);
+        return -30;
     }
 
     // payload가 Beacon보다 짧으면 CSP 헤더가 있을 가능성 → CSP 경로
-    return handle_csp_then_dispatch(payload, len);
+    // return handle_csp_then_dispatch(payload, len);
+    return -30;
 }
 
 int TelemetryHandler::handle_beacon_direct(const uint8_t* payload, size_t len) {

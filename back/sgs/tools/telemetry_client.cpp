@@ -48,7 +48,7 @@ int main() {
     // --- payload: Beacon 예시 ---
      Beacon b{};
     // ===== Header =====
-    b.CCMessage_ID = H16(0xBEAC);    // 임의
+    b.CCMessage_ID = H16(BEACON_CC_ID);    // 임의
     b.CCSequence   = H16(1);         // 임의
     b.CCLength     = H16(sizeof(Beacon)); // 148 고정
     // 예: 2025-08-31 15:24:40 -> [25 08 31 15 24 40]

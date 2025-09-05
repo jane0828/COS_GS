@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libtcp_tc.so -o ../lib/libtcp_tc.so CMakeFiles/tcp_tc.dir/tcp_tc.cpp.o  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 

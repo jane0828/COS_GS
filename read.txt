@@ -1,0 +1,2 @@
+# Separate window for vscode
+code --new-window --user-data-dir ~/.vscode-$(echo $DISPLAY | tr '/:.' '_') .

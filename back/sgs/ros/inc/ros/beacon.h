@@ -14,6 +14,10 @@
 #define BEACON_NET_ENDIAN 1
 #endif
 
+#ifndef BEACON_CC_ID
+#define BEACON_CC_ID 0x081A
+#endif
+
 typedef struct {
     // ===== Header (12 B) =====
     uint16_t CCMessage_ID;        // 2

@@ -39,8 +39,8 @@
 // #endif
 
 
-#ifndef _ROS_FSWCMD_H_
-#define _ROS_FSWCMD_H_
+#ifndef _ROS_FSW_H_
+#define _ROS_FSW_H_
 
 #include <cstdint>
 #include <string>
@@ -97,5 +97,7 @@ public:
     // 네가 원래 쓰던 콜백 — 여기서 위 API들을 호출
     void JsonCallback(const Json::Value& jsonData);
 };
+
+void MakeTCData(const Json::Value& root);
 
 #endif

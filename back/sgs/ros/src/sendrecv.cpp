@@ -96,29 +96,29 @@ int SendRecv::start_recv(std::atomic<bool>& run) {
         std::printf("[recv] from %s:%d size=%zd\n",
                     inet_ntoa(client_addr.sin_addr),
                     ntohs(client_addr.sin_port), n);
-
+        // Raw data save
         save_raw_txt_always(buf, (size_t)n);
         
-        if ((size_t)n >= sizeof(CSPHeader) + 2) {
-            const auto* tf = reinterpret_cast<const TelemetryFrame*>(buf);
-            const size_t need = sizeof(CSPHeader) + 2 + tf->payload_len;
-            if ((size_t)n >= need && tf->payload_len <= TM_MAX_PAYLOAD) {
-                // payload 첫 2바이트(CCMessage_ID)로 타입 판별
-                uint16_t cc = 0; std::memcpy(&cc, tf->payload, 2);
-                // 엔디안 정책에 맞게 필요시 ntohs(cc) 사용
-                cc = le16toh(cc);
-                if (cc == 0xBEAC) {
-                    Beacon b{};
-                    if (tf->payload_len >= sizeof(Beacon)) {
-                        std::memcpy(&b, tf->payload, sizeof(Beacon));
-                        BeaconHandler bh; bh.bec = &b;
-                        bh.parseBeaconData();
-                        continue;
-                    }
-                }
-                // TODO: HK 등 다른 CCMessage_ID 분기
-            }
-        }
+        // if ((size_t)n >= sizeof(CSPHeader) + 2) {
+        //     const auto* tf = reinterpret_cast<const TelemetryFrame*>(buf);
+        //     const size_t need = sizeof(CSPHeader) + 2 + tf->payload_len;
+        //     if ((size_t)n >= need && tf->payload_len <= TM_MAX_PAYLOAD) {
+        //         // payload 첫 2바이트(CCMessage_ID)로 타입 판별
+        //         uint16_t cc = 0; std::memcpy(&cc, tf->payload, 2);
+        //         // 엔디안 정책에 맞게 필요시 ntohs(cc) 사용
+        //         cc = le16toh(cc);
+        //         if (cc == 0xBEAC) {
+        //             Beacon b{};
+        //             if (tf->payload_len >= sizeof(Beacon)) {
+        //                 std::memcpy(&b, tf->payload, sizeof(Beacon));
+        //                 BeaconHandler bh; bh.bec = &b;
+        //                 bh.parseBeaconData();
+        //                 continue;
+        //             }
+        //         }
+        //         // TODO: HK 등 다른 CCMessage_ID 분기
+        //     }
+        // }
         // Telemetry parsing first
         int rc = tmh.parse_and_dispatch(buf, (size_t)n);
         if (rc == 0) continue;

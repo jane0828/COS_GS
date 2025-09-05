@@ -1,0 +1,5 @@
+/home/aclgs/COS_GS/tc/CMakeFiles/tcp_tc.dir
+/home/aclgs/COS_GS/tc/CMakeFiles/client.dir
+/home/aclgs/COS_GS/tc/CMakeFiles/server.dir
+/home/aclgs/COS_GS/tc/CMakeFiles/edit_cache.dir
+/home/aclgs/COS_GS/tc/CMakeFiles/rebuild_cache.dir
