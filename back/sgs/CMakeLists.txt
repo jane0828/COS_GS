@@ -96,6 +96,7 @@ TARGET_LINK_LIBRARIES(ServerSGS
     ${SSGS_BIN_PATH}/libIFC.so
     ${SSGS_BIN_PATH}/libDCS.so
     ${SSGS_BIN_PATH}/libGTS.so
+    ${SSGS_BIN_PATH}/libROS.so
     ${SOCKETCAN_LIB} 
 )
 
