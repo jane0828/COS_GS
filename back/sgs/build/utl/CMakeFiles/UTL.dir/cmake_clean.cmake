@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/aclgs/COS_GS/back/bin/libUTL.pdb"
-  "/home/aclgs/COS_GS/back/bin/libUTL.so"
+  "/home/hyvrid/COS_GS/back/bin/libUTL.pdb"
+  "/home/hyvrid/COS_GS/back/bin/libUTL.so"
   "CMakeFiles/UTL.dir/src/console.cpp.o"
   "CMakeFiles/UTL.dir/src/console.cpp.o.d"
   "CMakeFiles/UTL.dir/src/db.cpp.o"

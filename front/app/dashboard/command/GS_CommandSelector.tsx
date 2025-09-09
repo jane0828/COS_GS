@@ -1,6 +1,9 @@
 'use client';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 
+const LS_KEY_IP   = 'gs_cmd_last_ip';
+const LS_KEY_PORT = 'gs_cmd_last_port';
+
 type Command = {
   No: number | string;
   Name: string;
@@ -22,8 +25,8 @@ export default function GS_CommandSelector({ className = '' }) {
   const [parameters, setParameters] = useState<ParamMeta[]>([]);
   const [paramValues, setParamValues] = useState<Record<string, any>>({});
 
-  const DEFAULT_IP = '192.168.215.6';
-  const DEFAULT_PORT = '4443';
+  const DEFAULT_IP = '172.31.21.12';
+  const DEFAULT_PORT = '2002';
   const [ip, setIp] = useState<string>(DEFAULT_IP);
   const [port, setPort] = useState<string>(DEFAULT_PORT);
 
@@ -32,7 +35,28 @@ export default function GS_CommandSelector({ className = '' }) {
   const wsReady = useRef(false);
 
   useEffect(() => {
-    const ws = new WebSocket('ws://165.132.142.126:4443');
+    try {
+      const savedIp   = localStorage.getItem(LS_KEY_IP);
+      const savedPort = localStorage.getItem(LS_KEY_PORT);
+      if (savedIp)   setIp(savedIp);
+      if (savedPort) setPort(savedPort);
+    } catch {}
+  }, []);
+
+  useEffect(() => {
+    try {
+      if (ip && ip.trim()) localStorage.setItem(LS_KEY_IP, ip);
+    } catch {}
+  }, [ip]);
+
+  useEffect(() => {
+    try {
+      if (port && port.trim()) localStorage.setItem(LS_KEY_PORT, port);
+    } catch {}
+  }, [port]);
+  
+  useEffect(() => {
+    const ws = new WebSocket('ws://localhost:4443');
     wsRef.current = ws;
 
     ws.onopen = () => {

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/aclgs/COS_GS/back/bin/libROS.pdb"
-  "/home/aclgs/COS_GS/back/bin/libROS.so"
+  "/home/hyvrid/COS_GS/back/bin/libROS.pdb"
+  "/home/hyvrid/COS_GS/back/bin/libROS.so"
   "CMakeFiles/ROS.dir/src/beacon.cpp.o"
   "CMakeFiles/ROS.dir/src/beacon.cpp.o.d"
   "CMakeFiles/ROS.dir/src/fswcmd.cpp.o"

@@ -1425,7 +1425,7 @@ void MakeTCData(const Json::Value& root){
     uint8_t dst   = (uint8_t)m["csp"].get("dst",   3).asUInt();
     uint8_t sport = (uint8_t)m["csp"].get("sport",10).asUInt();  // 필요 시 내부 에페메랄 증가 로직 가능
     uint8_t dport = (uint8_t)m["csp"].get("dport",13).asUInt();
-    uint8_t flags = (uint8_t)m["csp"].get("flags", 1).asUInt();  // 1: CSP CRC32 tail 사용
+    uint8_t flags = (uint8_t)m["csp"].get("flags", 0).asUInt();  // 1: CSP CRC32 tail 사용
 
     // 3-1) CSP 헤더 4B(BE) 생성
     const uint32_t csp_id_be = build_csp_id_be(pri, src, dst, sport, dport, flags);

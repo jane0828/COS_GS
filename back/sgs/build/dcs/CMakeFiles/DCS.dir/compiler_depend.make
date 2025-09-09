@@ -254,20 +254,20 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/jsoncpp/json/writer.h \
   ../utl/inc/utl/error.h \
   ../utl/inc/utl/ws.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/condition_variable \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -279,20 +279,20 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -300,15 +300,15 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -328,13 +328,13 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -366,14 +366,14 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
   /usr/include/boost/version.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -931,7 +931,7 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/boost/asio/detail/completion_handler.hpp \
   /usr/include/boost/asio/impl/io_context.ipp \
   /usr/include/boost/asio/wait_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/awaitable.hpp \
   /usr/include/boost/asio/basic_datagram_socket.hpp \
@@ -1303,29 +1303,29 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
   ../utl/inc/utl/db.h \
   /usr/include/mysql/mysql.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
@@ -1344,42 +1344,42 @@ dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp \
   ../ifc/inc/ifc/ifc.h \
   ../ifc/inc/ifc/ifc_csp.h \
   /usr/include/inttypes.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
   ../ifc/inc/ifc/ifc_filesys.h \
   ../ifc/inc/ifc/ifc_ip.h \
   ../ifc/inc/ifc/ifc_serial.h \
   ../dcs/inc/dcs/dcs.h \
   ../dcs/inc/dcs/gs100.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
   ../dcs/inc/dcs/gs232b.h \
   ../dcs/inc/dcs/kta223.h \
   ../dcs/inc/dcs/q5signal.h
@@ -1388,11 +1388,11 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/stdc-predef.h \
   ../dcs/inc/dcs/dcs.h \
   ../dcs/inc/dcs/gs100.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -1412,16 +1412,16 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
   /usr/include/inttypes.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -1439,18 +1439,18 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -1479,10 +1479,10 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
   ../utl/inc/utl/utl.h \
   ../utl/inc/utl/console.h \
   /usr/include/c++/11/iostream \
@@ -1672,20 +1672,20 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/jsoncpp/json/writer.h \
   ../utl/inc/utl/error.h \
   ../utl/inc/utl/ws.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/condition_variable \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -1697,20 +1697,20 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -1718,15 +1718,15 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1746,13 +1746,13 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -1784,14 +1784,14 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
   /usr/include/boost/version.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -2349,7 +2349,7 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/boost/asio/detail/completion_handler.hpp \
   /usr/include/boost/asio/impl/io_context.ipp \
   /usr/include/boost/asio/wait_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/awaitable.hpp \
   /usr/include/boost/asio/basic_datagram_socket.hpp \
@@ -2721,29 +2721,29 @@ dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp \
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
   ../utl/inc/utl/db.h \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/field_types.h \
@@ -2771,11 +2771,11 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/stdc-predef.h \
   ../dcs/inc/dcs/dcs.h \
   ../dcs/inc/dcs/gs100.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -2795,16 +2795,16 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
   /usr/include/inttypes.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -2822,18 +2822,18 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -2862,10 +2862,10 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
   ../utl/inc/utl/utl.h \
   ../utl/inc/utl/console.h \
   /usr/include/c++/11/iostream \
@@ -3055,20 +3055,20 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/jsoncpp/json/writer.h \
   ../utl/inc/utl/error.h \
   ../utl/inc/utl/ws.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/condition_variable \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -3080,20 +3080,20 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -3101,15 +3101,15 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -3129,13 +3129,13 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -3167,14 +3167,14 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
   /usr/include/boost/version.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -3732,7 +3732,7 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/boost/asio/detail/completion_handler.hpp \
   /usr/include/boost/asio/impl/io_context.ipp \
   /usr/include/boost/asio/wait_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/awaitable.hpp \
   /usr/include/boost/asio/basic_datagram_socket.hpp \
@@ -4104,29 +4104,29 @@ dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp \
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
   ../utl/inc/utl/db.h \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/field_types.h \
@@ -4154,11 +4154,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/stdc-predef.h \
   ../dcs/inc/dcs/dcs.h \
   ../dcs/inc/dcs/gs100.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -4178,16 +4178,16 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
   /usr/include/inttypes.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -4205,18 +4205,18 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -4245,10 +4245,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
-  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
+  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
   ../utl/inc/utl/utl.h \
   ../utl/inc/utl/console.h \
   /usr/include/c++/11/iostream \
@@ -4438,20 +4438,20 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/jsoncpp/json/writer.h \
   ../utl/inc/utl/error.h \
   ../utl/inc/utl/ws.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/condition_variable \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -4463,20 +4463,20 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -4484,15 +4484,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -4512,13 +4512,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -4550,14 +4550,14 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
   /usr/include/boost/version.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -5115,7 +5115,7 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/boost/asio/detail/completion_handler.hpp \
   /usr/include/boost/asio/impl/io_context.ipp \
   /usr/include/boost/asio/wait_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/awaitable.hpp \
   /usr/include/boost/asio/basic_datagram_socket.hpp \
@@ -5487,29 +5487,29 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
-  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
+  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
   ../utl/inc/utl/db.h \
   /usr/include/mysql/mysql.h \
   /usr/include/mysql/field_types.h \
@@ -5538,9 +5538,19 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 ../dcs/src/gs232b.cpp:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h:
+../dcs/inc/dcs/gs232b.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h:
 
 ../dcs/inc/dcs/gs100.h:
 
@@ -5550,29 +5560,27 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 ../ifc/inc/ifc/ifc_filesys.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h:
 
-../dcs/inc/dcs/gs232b.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h:
 
 /usr/include/inttypes.h:
 
@@ -5584,31 +5592,33 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/mysql/mysql.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp:
 
 /usr/include/mysql/mysql_time.h:
 
 /usr/include/c++/11/queue:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp:
 
 /usr/include/boost/asio/write_at.hpp:
 
@@ -5621,6 +5631,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/windows/object_handle.hpp:
 
 /usr/include/boost/asio/windows/basic_stream_handle.hpp:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h:
 
 /usr/include/boost/asio/windows/basic_overlapped_handle.hpp:
 
@@ -5654,9 +5666,9 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/version.h:
 
-/usr/include/boost/predef/hardware/simd/arm/versions.h:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h:
+/usr/include/boost/predef/hardware/simd/arm/versions.h:
 
 /usr/include/boost/predef/hardware/simd/arm.h:
 
@@ -5666,7 +5678,7 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/hardware/simd/x86_amd.h:
 
-/usr/include/boost/predef/hardware/simd.h:
+/usr/include/boost/predef/hardware/simd/x86.h:
 
 /usr/include/boost/predef/hardware.h:
 
@@ -5690,6 +5702,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/platform.h:
 
+/usr/include/boost/predef/other/endian.h:
+
 ../dcs/inc/dcs/q5signal.h:
 
 /usr/include/boost/predef/other.h:
@@ -5705,6 +5719,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/os/qnxnto.h:
 
 /usr/include/boost/predef/detail/os_detected.h:
+
+/usr/include/boost/predef/os/linux.h:
 
 /usr/include/boost/predef/os/irix.h:
 
@@ -5730,8 +5746,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/os/beos.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp:
-
 /usr/include/boost/predef/os/amigaos.h:
 
 /usr/include/boost/predef/os/aix.h:
@@ -5746,6 +5760,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/library/std/msl.h:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h:
+
 /usr/include/mysql/errmsg.h:
 
 /usr/include/boost/predef/library/std/modena.h:
@@ -5753,6 +5769,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/library/std/libcomo.h:
 
 /usr/include/boost/predef/library/std/dinkumware.h:
+
+/usr/include/boost/predef/library/std.h:
 
 /usr/include/boost/predef/library/c/zos.h:
 
@@ -5785,8 +5803,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/compiler/pgi.h:
 
 /usr/include/boost/predef/compiler/nvcc.h:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h:
 
 /usr/include/boost/predef/compiler/mpw.h:
 
@@ -5826,8 +5842,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/predef/compiler/comeau.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp:
-
 /usr/include/boost/predef/compiler/clang.h:
 
 /usr/include/boost/predef/compiler/borland.h:
@@ -5849,8 +5863,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/architecture/rs6k.h:
 
 /usr/include/boost/predef/architecture/riscv.h:
-
-/usr/include/boost/predef/architecture/ptx.h:
 
 /usr/include/boost/predef/architecture/ppc.h:
 
@@ -5916,13 +5928,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/execution/bulk_execute.hpp:
 
-/usr/include/c++/11/bits/locale_conv.h:
-
 /usr/include/boost/asio/detail/posix_mutex.hpp:
 
-/usr/include/boost/asio/impl/error.ipp:
+/usr/include/boost/asio/detail/mutex.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/netdb.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/boost/asio/impl/error.ipp:
 
 /usr/include/rpc/netdb.h:
 
@@ -5934,8 +5946,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/asm-generic/errno-base.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h:
-
 /usr/include/boost/asio/detail/impl/throw_error.ipp:
 
 /usr/include/boost/mpl/aux_/include_preprocessed.hpp:
@@ -5946,6 +5956,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp:
+
 /usr/include/boost/cerrno.hpp:
 
 /usr/include/boost/core/enable_if.hpp:
@@ -5953,8 +5965,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/detail/impl/posix_event.ipp:
 
 /usr/include/c++/11/bits/enable_special_members.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp:
 
 /usr/include/boost/preprocessor/control/iif.hpp:
 
@@ -5976,8 +5986,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/conditionally_enabled_event.hpp:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h:
-
 /usr/include/boost/asio/ip/basic_resolver.hpp:
 
 /usr/include/boost/asio/execution/blocking_adaptation.hpp:
@@ -5998,6 +6006,12 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/handler_alloc_hook.hpp:
 
+/usr/include/boost/asio/detail/keyword_tss_ptr.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -6016,27 +6030,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/locale:
 
-/usr/include/boost/asio/impl/buffered_write_stream.hpp:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp:
+/usr/include/boost/asio/impl/buffered_write_stream.hpp:
 
 /usr/include/boost/asio/ip/detail/endpoint.hpp:
 
 /usr/include/boost/asio/traits/connect_member.hpp:
 
-/usr/include/boost/asio/traits/query_member.hpp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/boost/asio/traits/start_free.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/boost/asio/detail/thread_info_base.hpp:
-
-/usr/include/boost/asio/execution/detail/as_operation.hpp:
+/usr/include/boost/asio/execution/start.hpp:
 
 /usr/include/boost/asio/generic/stream_protocol.hpp:
 
@@ -6052,14 +6054,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/traits/schedule_free.hpp:
 
-/usr/include/boost/asio/execution/schedule.hpp:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/boost/type_traits/detail/config.hpp:
-
-/usr/include/boost/asio/socket_base.hpp:
-
 /usr/include/boost/asio/traits/execute_member.hpp:
 
 /usr/include/boost/asio/traits/set_value_free.hpp:
@@ -6067,8 +6061,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/traits/query_static_constexpr_member.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -6088,6 +6080,14 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
+/usr/include/c++/11/atomic:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/boost/asio/detail/type_traits.hpp:
+
+/usr/include/c++/11/stack:
+
 /usr/include/boost/asio/basic_waitable_timer.hpp:
 
 /usr/include/boost/asio/traits/static_query.hpp:
@@ -6097,14 +6097,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
 
 /usr/include/boost/config/helper_macros.hpp:
-
-/usr/include/boost/system/system_error.hpp:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
-
-/usr/include/boost/asio/basic_socket.hpp:
 
 /usr/include/linux/close_range.h:
 
@@ -6116,13 +6108,9 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/boost/predef/platform/android.h:
-
-/usr/include/boost/asio/detail/config.hpp:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
@@ -6134,31 +6122,23 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/config/detail/select_compiler_config.hpp:
 
-/usr/include/boost/predef/hardware/simd/x86.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp:
-
 /usr/include/c++/11/cstdarg:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp:
+/usr/include/boost/predef/platform/android.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp:
+/usr/include/boost/asio/detail/config.hpp:
 
-/usr/include/c++/11/atomic:
+/usr/include/boost/version.hpp:
 
-/usr/include/asm-generic/int-ll64.h:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp:
+/usr/include/boost/predef/os/cygwin.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp:
+/usr/include/boost/predef/compiler/dignus.h:
 
-/usr/include/boost/preprocessor/array/data.hpp:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp:
-
-/usr/include/c++/11/bits/ptr_traits.h:
+/usr/include/boost/asio/system_executor.hpp:
 
 /usr/include/c++/11/numeric:
 
@@ -6170,6 +6150,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/aux_/has_apply.hpp:
 
+/usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
@@ -6180,7 +6164,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/system/error_code.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp:
+
 /usr/include/boost/asio/impl/serial_port_base.ipp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -6192,23 +6180,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/random:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp:
-
-/usr/include/boost/asio/traits/query_free.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/boost/predef/library/std.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp:
-
-/usr/include/c++/11/new:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp:
 
 /usr/include/boost/asio/execution/any_executor.hpp:
 
 /usr/include/c++/11/bits/quoted_string.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp:
+/usr/include/c++/11/condition_variable:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
@@ -6242,23 +6222,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/netinet/in.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp:
-
 /usr/include/boost/asio/detail/scoped_lock.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp:
+/usr/include/boost/asio/local/detail/impl/endpoint.ipp:
 
-/usr/include/c++/11/bits/ostream.tcc:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h:
 
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp:
-
-/usr/include/c++/11/vector:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp:
 
 /usr/include/boost/config/platform/linux.hpp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h:
 
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
@@ -6280,43 +6252,67 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp:
+/usr/include/c++/11/tuple:
 
-/usr/include/boost/mpl/aux_/na.hpp:
+/usr/include/mysql/mysql_com.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp:
+/usr/include/net/if.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 
-/usr/include/boost/asio/detail/reactive_wait_op.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
-/usr/include/boost/asio/ip/impl/host_name.ipp:
+/usr/include/boost/system/system_error.hpp:
+
+/usr/include/c++/11/ctime:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/include/boost/asio/basic_socket.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp:
+
+/usr/include/boost/asio/traits/query_member.hpp:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/boost/asio/traits/start_free.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/boost/asio/detail/thread_info_base.hpp:
+
+/usr/include/boost/asio/execution/detail/as_operation.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp:
 
 /usr/include/c++/11/algorithm:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp:
+/usr/include/boost/predef/architecture/ptx.h:
 
-/usr/include/boost/version.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp:
 
-/usr/include/boost/predef/os/linux.h:
+/usr/include/c++/11/bits/locale_conv.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp:
 
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
+/usr/include/c++/11/string:
 
-/usr/include/boost/date_time/date_duration_types.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h:
+/usr/include/x86_64-linux-gnu/bits/netdb.h:
 
-/usr/include/boost/asio/detail/type_traits.hpp:
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h:
 
-/usr/include/c++/11/stack:
+/usr/include/boost/predef/hardware/simd.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp:
 
-/usr/include/boost/predef/platform/mingw64.h:
+/usr/include/mysql/client_plugin.h:
 
-/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
+/usr/include/boost/predef/os.h:
+
+/usr/include/x86_64-linux-gnu/sys/timerfd.h:
 
 /usr/include/boost/asio/defer.hpp:
 
@@ -6327,6 +6323,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
 /usr/include/boost/asio/ip/impl/basic_endpoint.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
 
 /usr/include/boost/predef/library/std/cxx.h:
 
@@ -6348,22 +6348,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/unordered_map:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp:
-
-/usr/include/boost/asio/detail/mutex.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp:
-
-/usr/include/boost/date_time/date_duration.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp:
-
-/usr/include/boost/asio/detail/signal_op.hpp:
-
 /usr/include/boost/system/detail/system_category_posix.hpp:
 
 /usr/include/boost/asio/io_context.hpp:
@@ -6377,12 +6361,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/c++/11/backward/binders.h:
-
-/usr/include/boost/asio/execution/start.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/11/bits/deque.tcc:
 
@@ -6415,8 +6393,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
@@ -6472,10 +6448,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/shared_ptr.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp:
-
-/usr/include/boost/asio/detail/reactive_socket_service_base.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/11/bits/range_access.h:
@@ -6498,6 +6470,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h:
+
 /usr/include/boost/asio/detail/posix_thread.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -6510,15 +6484,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/generic/basic_endpoint.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/c++/11/bits/sstream.tcc:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp:
 
 /usr/include/boost/asio/detail/executor_op.hpp:
 
 /usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/c++/11/new:
 
 /usr/include/boost/is_placeholder.hpp:
 
@@ -6540,10 +6512,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/11/string:
-
-/usr/include/boost/asio/detail/timer_queue_base.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/boost/throw_exception.hpp:
@@ -6556,16 +6524,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/traits/prefer_member.hpp:
 
-/usr/include/c++/11/tuple:
-
-/usr/include/mysql/mysql_com.h:
-
-/usr/include/net/if.h:
-
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/boost/asio/traits/schedule_member.hpp:
@@ -6574,17 +6532,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/boost/asio/detail/keyword_tss_ptr.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/boost/predef/architecture/z.h:
 
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp:
-
-/usr/include/boost/asio/detail/scheduler.hpp:
-
-/usr/include/boost/mpl/aux_/lambda_support.hpp:
+/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -6592,13 +6544,19 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/config/detail/select_stdlib_config.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp:
-
 /usr/include/boost/mpl/equal_to.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/boost/asio/detail/impl/socket_ops.ipp:
 
@@ -6613,12 +6571,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /usr/include/linux/version.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp:
-
-/usr/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp:
-
-/usr/include/boost/asio/detail/wait_handler.hpp:
 
 /usr/include/c++/11/debug/debug.h:
 
@@ -6660,6 +6612,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/descriptor_write_op.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -6680,8 +6636,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/streambuf:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp:
-
 /usr/include/boost/asio/traits/set_error_member.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_types.hpp:
@@ -6695,6 +6649,14 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/library/std/_prefix.h:
 
 /usr/include/boost/asio/execution/execute.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp:
+
+/usr/include/boost/date_time/posix_time/ptime.hpp:
+
+/usr/include/boost/asio/detail/timer_queue_base.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp:
 
 /usr/include/boost/asio/traits/prefer_free.hpp:
 
@@ -6712,10 +6674,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/socket.h:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
 /usr/include/c++/11/bits/stl_function.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
@@ -6725,6 +6683,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/execution/outstanding_work.hpp:
 
 /usr/include/boost/asio/local/stream_protocol.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
@@ -6736,15 +6696,19 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
 
-/usr/include/boost/predef/os/cygwin.h:
+/usr/include/boost/asio/traits/query_free.hpp:
 
-/usr/include/boost/predef/compiler/dignus.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/boost/asio/basic_seq_packet_socket.hpp:
+
+/usr/include/boost/asio/impl/buffered_read_stream.hpp:
 
 /usr/include/linux/stat.h:
 
@@ -6754,19 +6718,29 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/date_time/gregorian/greg_month.hpp:
 
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
+
 /usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/boost/asio/detail/pop_options.hpp:
 
 /usr/include/c++/11/bits/random.tcc:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h:
-
 /usr/include/features.h:
 
 /usr/include/boost/asio/traits/execute_free.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp:
+
 /usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/boost/asio/high_resolution_timer.hpp:
+
+/usr/include/wctype.h:
+
+/usr/include/boost/asio/detail/handler_tracking.hpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
@@ -6782,19 +6756,17 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp:
-
 /usr/include/boost/asio/execution/prefer_only.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp:
 
 /usr/include/c++/11/debug/assertions.h:
 
 /usr/include/errno.h:
 
 /usr/include/boost/asio/io_service_strand.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/eventfd.h:
 
@@ -6809,8 +6781,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/boost/asio/traits/submit_member.hpp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h:
 
 /usr/include/boost/asio/execution/operation_state.hpp:
 
@@ -6840,6 +6810,18 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
+/usr/include/boost/asio/execution/schedule.hpp:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/boost/type_traits/detail/config.hpp:
+
+/usr/include/boost/asio/socket_base.hpp:
+
+/usr/include/boost/core/checked_delete.hpp:
+
+/usr/include/boost/smart_ptr/detail/shared_count.hpp:
+
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/boost/asio/system_context.hpp:
@@ -6854,17 +6836,9 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/c++/11/bits/stl_algobase.h:
-
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp:
-
-/usr/include/c++/11/bits/locale_facets.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -6886,19 +6860,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp:
+
 /usr/include/boost/asio/completion_condition.hpp:
 
 /usr/include/boost/date_time/microsec_time_clock.hpp:
-
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/boost/asio/generic/seq_packet_protocol.hpp:
 
 /usr/include/boost/predef/architecture/x86/64.h:
 
@@ -6922,11 +6888,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/date_time/compiler_config.hpp:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h:
-
 /usr/include/boost/asio/execution/connect.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -6956,23 +6922,17 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp:
+
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/c++/11/bits/concept_check.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp:
+
 /usr/include/boost/asio/post.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp:
-
-/usr/include/boost/date_time/gregorian/greg_day.hpp:
-
-/usr/include/boost/date_time/time_system_counted.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp:
-
-/usr/include/boost/asio/buffers_iterator.hpp:
 
 /usr/include/c++/11/iosfwd:
 
@@ -7026,11 +6986,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/stdlib.h:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h:
-
 /usr/include/boost/date_time/locale_config.hpp:
 
 /usr/include/boost/asio/traits/require_free.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -7043,8 +7003,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/c++/11/type_traits:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp:
 
 /usr/include/boost/asio/execution/scheduler.hpp:
 
@@ -7066,6 +7024,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/handler_work.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
 /usr/include/c++/11/chrono:
 
 /usr/include/boost/asio/redirect_error.hpp:
@@ -7081,14 +7041,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/execution/detail/submit_receiver.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/boost/asio/high_resolution_timer.hpp:
-
-/usr/include/boost/asio/detail/handler_tracking.hpp:
-
-/usr/include/wctype.h:
-
-/usr/include/boost/asio/local/detail/impl/endpoint.ipp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
@@ -7112,27 +7064,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/boost/asio/detail/null_event.hpp:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/usr/include/arpa/inet.h:
-
-../dcs/src/kta223.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp:
-
 /usr/include/boost/config/detail/suffix.hpp:
 
-/usr/include/mysql/client_plugin.h:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp:
 
-/usr/include/boost/predef/os.h:
-
-/usr/include/x86_64-linux-gnu/sys/timerfd.h:
+/usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
@@ -7156,27 +7092,23 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/ip/tcp.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp:
-
-/usr/include/asm-generic/ioctls.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp:
-
-/usr/include/boost/mpl/void.hpp:
+/usr/include/c++/11/bits/locale_facets.h:
 
 /usr/include/c++/11/cwctype:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/boost/asio/basic_socket_streambuf.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/codecvt.h:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -7190,17 +7122,19 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/ip/impl/network_v4.ipp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp:
+
 /usr/include/boost/asio/detail/impl/timer_queue_ptime.ipp:
 
 /usr/include/jsoncpp/json/version.h:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h:
 
 /usr/include/boost/asio/detail/reactive_socket_recv_op.hpp:
 
@@ -7212,9 +7146,7 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/associated_allocator.hpp:
 
-/usr/include/c++/11/condition_variable:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp:
 
 /usr/include/c++/11/ratio:
 
@@ -7254,21 +7186,23 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/string.h:
 
+/usr/include/c++/11/cctype:
+
+/usr/include/boost/asio/ip/host_name.hpp:
+
 /usr/include/c++/11/memory:
-
-/usr/include/boost/predef/architecture/z.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
+/usr/include/c++/11/vector:
+
 /usr/include/linux/stddef.h:
 
 /usr/include/c++/11/bits/refwrap.h:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp:
 
 /usr/include/boost/asio/detail/posix_event.hpp:
 
@@ -7278,6 +7212,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp:
+
 /usr/include/stdint.h:
 
 /usr/include/c++/11/bits/erase_if.h:
@@ -7286,11 +7222,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/event.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -7298,19 +7234,21 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp:
+
 /usr/include/boost/asio/detail/array_fwd.hpp:
 
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/stl_stack.h:
 
-/usr/include/boost/predef/other/endian.h:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp:
 
-/usr/include/boost/assert.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp:
 
-/usr/include/boost/asio/ip/impl/address_v6.hpp:
+/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
 
 /usr/include/boost/asio/async_result.hpp:
 
@@ -7354,13 +7292,9 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/is_executor.hpp:
 
-/usr/include/boost/asio/system_executor.hpp:
-
 /usr/include/boost/asio/impl/system_executor.hpp:
 
 /usr/include/boost/asio/detail/std_fenced_block.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp:
 
 /usr/include/boost/mpl/aux_/static_cast.hpp:
 
@@ -7388,11 +7322,27 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/posix_global.hpp:
 
+/usr/include/boost/asio/detail/scheduler.hpp:
+
+/usr/include/boost/mpl/aux_/lambda_support.hpp:
+
 /usr/include/boost/asio/detail/conditionally_enabled_mutex.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/boost/date_time/date_clock_device.hpp:
+
+/usr/include/boost/preprocessor/facilities/identity.hpp:
+
+/usr/include/boost/asio/detail/null_event.hpp:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/arpa/inet.h:
+
+../dcs/src/kta223.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/boost/asio/detail/impl/null_event.ipp:
 
@@ -7405,6 +7355,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/detail/impl/posix_thread.ipp:
 
 /usr/include/c++/11/bits/functexcept.h:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp:
 
 /usr/include/boost/asio/detail/concurrency_hint.hpp:
 
@@ -7470,17 +7422,25 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
+/usr/include/asm-generic/ioctls.h:
+
 /usr/include/linux/ioctl.h:
 
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/include/asm-generic/ioctl.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp:
+
 /usr/include/boost/type_traits/is_base_of.hpp:
 
 ../ifc/inc/ifc/ifc.h:
 
 /usr/include/boost/asio.hpp:
+
+/usr/include/boost/predef/platform/mingw64.h:
+
+/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
@@ -7513,6 +7473,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/system/detail/std_interoperability.hpp:
 
 /usr/include/boost/type_traits/is_class.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/epoll.h:
 
@@ -7578,6 +7540,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/impl/reactive_socket_service_base.ipp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp:
+
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /usr/include/boost/predef.h:
@@ -7599,12 +7563,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/date_time/time_clock.hpp:
 
 /usr/include/boost/asio/impl/io_context.ipp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h:
-
-/usr/include/boost/core/checked_delete.hpp:
-
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
@@ -7672,10 +7630,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/usr/include/boost/asio/basic_socket_streambuf.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp:
-
 /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
 
 /usr/include/c++/11/cerrno:
@@ -7688,7 +7642,9 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/ip/impl/address_v4.hpp:
 
-/usr/include/boost/date_time/posix_time/ptime.hpp:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_system.hpp:
 
@@ -7703,6 +7659,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/predef/library/std/stdcpp3.h:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp:
 
 /usr/include/boost/type_traits/is_same.hpp:
 
@@ -7766,9 +7724,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
+/usr/include/boost/date_time/gregorian/greg_day.hpp:
+
+/usr/include/boost/date_time/time_system_counted.hpp:
+
 /usr/include/boost/asio/detail/signal_handler.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_duration.hpp:
+
+/usr/include/boost/date_time/date_duration.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_date.hpp:
 
@@ -7806,9 +7770,15 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp:
-
 /usr/include/boost/mpl/lambda_fwd.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp:
+
+/usr/include/boost/numeric/conversion/bounds.hpp:
+
+/usr/include/boost/mpl/aux_/config/gcc.hpp:
+
+/usr/include/boost/mpl/aux_/na.hpp:
 
 /usr/include/boost/asio/detail/wait_op.hpp:
 
@@ -7826,9 +7796,19 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/int_fwd.hpp:
 
+/usr/include/boost/date_time/date_duration_types.hpp:
+
+/usr/include/boost/mpl/aux_/nttp_decl.hpp:
+
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/boost/mpl/aux_/config/nttp.hpp:
+
+/usr/include/boost/asio/generic/seq_packet_protocol.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h:
 
 /usr/include/boost/mpl/aux_/integral_wrapper.hpp:
 
@@ -7870,13 +7850,21 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/ip/network_v6.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp:
+
 /usr/include/boost/preprocessor/debug/error.hpp:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/boost/asio/detail/signal_op.hpp:
 
 /usr/include/boost/preprocessor/logical/bitand.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp:
-
 /usr/include/boost/preprocessor/identity.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp:
 
 /usr/include/boost/preprocessor/empty.hpp:
 
@@ -7885,8 +7873,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/preprocessor/control/while.hpp:
 
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp:
 
 /usr/include/boost/preprocessor/list/detail/fold_left.hpp:
 
@@ -7903,6 +7889,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/preprocessor/list/fold_right.hpp:
 
 /usr/include/boost/asio/impl/write.hpp:
+
+/usr/include/boost/asio/basic_streambuf_fwd.hpp:
+
+/usr/include/boost/preprocessor/list/reverse.hpp:
 
 /usr/include/boost/preprocessor/tuple/elem.hpp:
 
@@ -7936,6 +7926,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/preprocessor/array/elem.hpp:
 
+/usr/include/boost/preprocessor/array/data.hpp:
+
 /usr/include/boost/preprocessor/inc.hpp:
 
 /usr/include/boost/preprocessor/array/size.hpp:
@@ -7956,11 +7948,17 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/mpl/tag.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp:
+
+/usr/include/boost/mpl/void.hpp:
+
 /usr/include/c++/11/iostream:
 
 /usr/include/boost/mpl/aux_/has_tag.hpp:
 
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
@@ -7975,8 +7973,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp:
 
 /usr/include/boost/mpl/identity.hpp:
 
@@ -8004,6 +8000,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp:
+
 /usr/include/boost/mpl/times.hpp:
 
 /usr/include/boost/asio/ip/basic_resolver_results.hpp:
@@ -8026,11 +8024,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
 
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp:
+
 /usr/include/boost/numeric/conversion/detail/converter.hpp:
 
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
-
-/usr/include/boost/numeric/conversion/bounds.hpp:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp:
 
 /usr/include/boost/asio/ip/address_v4_iterator.hpp:
 
@@ -8048,11 +8046,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/date_time/dst_rules.hpp:
 
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp:
-
 /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
 
 /usr/include/boost/asio/detail/timer_scheduler.hpp:
+
+/usr/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp:
+
+/usr/include/boost/asio/detail/wait_handler.hpp:
 
 /usr/include/boost/asio/executor_work_guard.hpp:
 
@@ -8062,13 +8062,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/chrono.hpp:
 
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h:
-
 /usr/include/boost/asio/generic/datagram_protocol.hpp:
 
 /usr/include/boost/asio/impl/io_context.hpp:
 
 /usr/include/boost/asio/detail/completion_handler.hpp:
+
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
 
@@ -8076,21 +8076,11 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/impl/defer.hpp:
 
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/boost/asio/is_read_buffered.hpp:
-
-/usr/include/boost/asio/awaitable.hpp:
-
 /usr/include/boost/asio/basic_datagram_socket.hpp:
 
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
 
 /usr/include/boost/asio/detail/socket_option.hpp:
-
-/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp:
 
 /usr/include/boost/asio/detail/reactive_socket_service.hpp:
 
@@ -8104,6 +8094,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/reactive_socket_recvfrom_op.hpp:
 
+/usr/include/boost/asio/detail/reactive_socket_service_base.hpp:
+
 /usr/include/boost/asio/read_at.hpp:
 
 /usr/include/boost/asio/basic_serial_port.hpp:
@@ -8114,11 +8106,13 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/reactive_socket_send_op.hpp:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h:
+
+/usr/include/boost/asio/detail/reactive_wait_op.hpp:
+
+/usr/include/boost/asio/ip/impl/host_name.ipp:
+
 /usr/include/boost/asio/basic_raw_socket.hpp:
-
-/usr/include/boost/asio/basic_seq_packet_socket.hpp:
-
-/usr/include/boost/asio/impl/buffered_read_stream.hpp:
 
 /usr/include/boost/asio/execution/context_as.hpp:
 
@@ -8128,7 +8122,7 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/termios.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
+/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
 
@@ -8141,8 +8135,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/c++/11/bits/std_abs.h:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
 
 /usr/include/boost/asio/strand.hpp:
 
@@ -8160,6 +8152,8 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/signal_set_service.hpp:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h:
+
 /usr/include/boost/asio/detail/impl/signal_set_service.ipp:
 
 /usr/include/boost/asio/detail/static_mutex.hpp:
@@ -8168,13 +8162,7 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/basic_socket_acceptor.hpp:
 
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
-/usr/include/boost/asio/basic_streambuf_fwd.hpp:
-
 /usr/include/boost/asio/buffered_read_stream.hpp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h:
 
 /usr/include/boost/asio/detail/buffered_stream_storage.hpp:
 
@@ -8185,6 +8173,10 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/buffered_write_stream_fwd.hpp:
 
 /usr/include/boost/asio/detail/base_from_completion_cond.hpp:
+
+/usr/include/boost/asio/buffers_iterator.hpp:
+
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -8238,6 +8230,12 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/ip/impl/address_v4.ipp:
 
+/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h:
+
+/usr/include/boost/assert.hpp:
+
+/usr/include/boost/asio/ip/impl/address_v6.hpp:
+
 /usr/include/boost/asio/ip/address_v6_iterator.hpp:
 
 /usr/include/boost/asio/detail/impl/service_registry.ipp:
@@ -8274,12 +8272,6 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 
 /usr/include/boost/asio/detail/impl/resolver_service_base.ipp:
 
-/usr/include/c++/11/cctype:
-
-/usr/include/boost/asio/ip/host_name.hpp:
-
-/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/boost/asio/ip/icmp.hpp:
@@ -8293,6 +8285,14 @@ dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp \
 /usr/include/boost/asio/impl/executor.ipp:
 
 /usr/include/boost/asio/ip/unicast.hpp:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/boost/asio/awaitable.hpp:
+
+/usr/include/boost/asio/is_read_buffered.hpp:
 
 /usr/include/boost/asio/local/detail/endpoint.hpp:
 

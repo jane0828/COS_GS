@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aclgs/COS_GS/back/sgs/main.cpp" "CMakeFiles/ServerSGS.dir/main.cpp.o" "gcc" "CMakeFiles/ServerSGS.dir/main.cpp.o.d"
+  "/home/hyvrid/COS_GS/back/sgs/main.cpp" "CMakeFiles/ServerSGS.dir/main.cpp.o" "gcc" "CMakeFiles/ServerSGS.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
