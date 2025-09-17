@@ -7,22 +7,20 @@
 
 #include "../inc/ros/telemetry.h"
 
+static constexpr uint32_t RX_PREAMBLE  = 0xA1B2C3D4u; 
+static constexpr uint32_t RX_POSTAMBLE = ~RX_PREAMBLE; 
+
+
 // ===== CRC32 (IEEE 802.3) =====
 uint32_t TelemetryHandler::crc32_ieee(const uint8_t* data, size_t len) {
-    static uint32_t table[256];
-    static bool init = false;
-    if (!init) {
-        for (uint32_t i=0; i<256; ++i) {
-            uint32_t c = i;
-            for (int j=0; j<8; ++j)
-                c = (c & 1) ? (0xEDB88320u ^ (c >> 1)) : (c >> 1);
-            table[i] = c;
-        }
-        init = true;
-    }
+    const uint32_t POLY = 0x04C11DB7u;
     uint32_t crc = 0xFFFFFFFFu;
-    for (size_t i=0; i<len; ++i)
-        crc = table[(crc ^ data[i]) & 0xFF] ^ (crc >> 8);
+    for (size_t i = 0; i < len; ++i) {
+        crc ^= data[i];
+        for (int j = 0; j < 8; ++j) {
+            crc = (crc & 1u) ? ((crc >> 1) ^ POLY) : (crc >> 1);
+        }
+    }
     return crc ^ 0xFFFFFFFFu;
 }
 
@@ -42,80 +40,99 @@ int TelemetryHandler::parse_and_dispatch(const uint8_t* buf, size_t n) {
         return -1;
     }
 
-    // 헤더 추출(unaligned 안전)
     TelemetryHeader hdr{};
     std::memcpy(&hdr, buf, sizeof(hdr));
 
-    // 엔디안은 문서에 명시 없으니 그대로 가정. 필요 시 ntohl/ntohll 적용.
-    if (hdr.preamble != TM_PREAMBLE) {
-        std::fprintf(stderr, "[tm] bad preamble: 0x%08X\n", hdr.preamble);
+    if (hdr.preamble != RX_PREAMBLE) {
+        std::fprintf(stderr,
+            "[tm] bad preamble: got=0x%08X expect=0x%08X\n",
+            hdr.preamble, RX_PREAMBLE);
         return -2;
     }
     if (hdr.msg_type != TM_TYPE_TELEMETRY) {
         std::fprintf(stderr, "[tm] unsupported msg_type: 0x%08X\n", hdr.msg_type);
-        // 필요하면 다른 타입도 열어둘 수 있음
     }
 
-    const uint32_t N = hdr.total_len;             // payload 길이
-    const size_t need = TM_FIXED_HEADER + (size_t)N + 8; // +CRC32(4)+POST(4)
+    // total_len = 프레임 전체 길이(헤더36 + payload + CRC4 + POST4)
+    const uint32_t N = hdr.total_len;
+    if (N < (TM_FIXED_HEADER + 8)) {
+        std::fprintf(stderr, "[tm] invalid total_len: %u (< 44)\n", N);
+        return -3;
+    }
+    const size_t need = (size_t)N;
     if (n < need) {
         std::fprintf(stderr, "[tm] incomplete: have=%zu need=%zu (N=%u)\n", n, need, N);
         return -3;
     }
 
+    // payload 길이 및 포인터
+    const size_t payload_len = (size_t)N - (TM_FIXED_HEADER + 8);
     const uint8_t* payload = buf + TM_FIXED_HEADER;
-    const uint8_t* p_crc   = payload + N;
+    const uint8_t* p_crc   = payload + payload_len;   // ← FIX
     const uint8_t* p_post  = p_crc + 4;
 
-    // CRC32 확인
+    // CRC32 확인: 헤더+payload 전체(N-8) 구간
     uint32_t rx_crc = 0;
     std::memcpy(&rx_crc, p_crc, 4);
     if (crc_check_) {
-        uint32_t calc = crc32_ieee(payload, N);
+        const size_t crc_region_len = TM_FIXED_HEADER + payload_len; // = N - 8
+        const uint8_t* crc_region   = buf;                           // 헤더부터
+        uint32_t calc = crc32_ieee(crc_region, crc_region_len);      // ← FIX
         if (rx_crc != calc) {
-            std::fprintf(stderr, "[tm] CRC mismatch: rx=0x%08X calc=0x%08X (N=%u)\n", rx_crc, calc, N);
-            // 필요 시 계속 진행할지 여부 선택. 일단 계속 진행.
+            std::fprintf(stderr, "[tm] CRC mismatch: rx=0x%08X calc=0x%08X (region=%zu)\n",
+                         rx_crc, calc, crc_region_len);
+            // 경고만
         }
     }
 
     uint32_t post = 0;
     std::memcpy(&post, p_post, 4);
-    if (post != TM_POSTAMBLE) {
-        std::fprintf(stderr, "[tm] bad postamble: 0x%08X (expect 0x%08X)\n", post, TM_POSTAMBLE);
-        // 일단 경고만
+    if (post != RX_POSTAMBLE) {  // ← FIX
+        std::fprintf(stderr, "[tm] bad postamble: 0x%08X (expect 0x%08X)\n", post, RX_POSTAMBLE);
+        // 경고만
     }
 
     (void)SaveRaw(buf, n);
 
-    std::printf("[tm] %s\n", header_summary(hdr).c_str());
-    return dispatch_payload(payload, N);
+    std::printf("[tm] %s (payload=%zu)\n", header_summary(hdr).c_str(), payload_len);
+    return dispatch_payload(payload, payload_len);   // ← FIX
 }
+
+
 
 int TelemetryHandler::dispatch_payload(const uint8_t* payload, size_t len) {
-    if (!payload || len == 0) return -10;
+    if (!payload) return -10;
 
-    // 1) (임시) CSP 헤더 없이 Beacon 바로 오는 경우
-    if (len >= sizeof(Beacon)) {
-        // CCMessage_ID는 payload 시작 0..1 에 있음(Beacon 정의)
-        uint16_t cc = 0;
-        std::memcpy(&cc, payload, sizeof(cc));
-        // “Beacon 식별자”는 사용자 정책에 맞춰 바꿔도 됨. 여기서는 0xBEAC로 가정.
-        cc = le16toh(cc);
-        if (cc == (uint16_t)BEACON_CC_ID) {
-            return handle_beacon_direct(payload, len);
-        }
-        // HK 식별자(미정): 주석으로 가이드만 남김
-        // else if (cc == HK_MESSAGE_ID) { return handle_hk_direct(payload, len); }
-
-        // 아니라면 (미래) CSP가 앞에 있을 수도 있으니 CSP 경로 시도
-        // return handle_csp_then_dispatch(payload, len);
-        return -30;
+    // csp_id(4) + Beacon(143) + inner_crc(4) = 151
+    const size_t need = 4 + sizeof(Beacon) + 4;
+    if (len < 4+4){
+        std::fprintf(stderr, "[tm] payload too short: %zu (need %zu)\n", len, need);
+        return -10;
     }
 
-    // payload가 Beacon보다 짧으면 CSP 헤더가 있을 가능성 → CSP 경로
-    // return handle_csp_then_dispatch(payload, len);
+    // csp_id (로그용)
+    uint32_t csp_id = 0;
+    std::memcpy(&csp_id, payload, 4);
+
+    // Beacon 시작/길이
+    const uint8_t* app   = payload + 4;
+    const size_t   app_n = sizeof(Beacon);
+
+    uint16_t msgid = 0;
+    std::memcpy(&msgid, app, 2);
+    msgid = ntohs(msgid);  
+
+    if (msgid == (uint16_t)BEACON_CC_ID) { // 매크로 이름은 그대로 사용
+        return handle_beacon_direct(app, app_n);
+    }
+    if (msgid == (uint16_t)REPORT_CC_ID) {
+        return handle_report_direct(app, sizeof(Report));
+    }
+    
+    std::fprintf(stderr, "[tm] unknown app msgid=0x%04X (csp=0x%08X)\n", msgid, csp_id);
     return -30;
 }
+
 
 int TelemetryHandler::handle_beacon_direct(const uint8_t* payload, size_t len) {
     if (len < sizeof(Beacon)) {
@@ -132,6 +149,24 @@ int TelemetryHandler::handle_beacon_direct(const uint8_t* payload, size_t len) {
     // 남은 바이트가 있으면 (확장 필드?) 덤프
     if (len > sizeof(Beacon)) {
         std::printf("[tm] beacon extra bytes: %zu\n", len - sizeof(Beacon));
+    }
+    return 0;
+}
+
+int TelemetryHandler::handle_report_direct(const uint8_t* payload, size_t len) {
+    if (len < sizeof(Report)) {
+        std::fprintf(stderr, "[tm] report payload too short: %zu (need %zu)\n", len, sizeof(Report));
+        return -20;
+    }
+    Report r{};
+    std::memcpy(&r, payload, sizeof(Report));
+
+    ReportHandler rh;
+    rh.rep = &r;
+    rh.parseReportData();
+
+    if (len > sizeof(Report)) {
+        std::printf("[tm] report extra bytes: %zu\n", len - sizeof(Report));
     }
     return 0;
 }

@@ -25,7 +25,7 @@ wss.on('connection', (ws) => {
 
 // HTTP 서버에서 WebSocket을 처리
 const server = app.listen(WS_PORT, () => {
-    console.log(`Server running on http://localhost:${WS_PORT}`);
+    console.log(`Server running on http://172.31.21.100:${WS_PORT}`);
 });
 
 server.on('upgrade', (request, socket, head) => {

@@ -56,7 +56,7 @@ export default function GS_CommandSelector({ className = '' }) {
   }, [port]);
   
   useEffect(() => {
-    const ws = new WebSocket('ws://localhost:4443');
+    const ws = new WebSocket('ws://172.31.21.100:4443');
     wsRef.current = ws;
 
     ws.onopen = () => {

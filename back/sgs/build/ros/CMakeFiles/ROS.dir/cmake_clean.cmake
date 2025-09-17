@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ROS.dir/src/beacon.cpp.o.d"
   "CMakeFiles/ROS.dir/src/fswcmd.cpp.o"
   "CMakeFiles/ROS.dir/src/fswcmd.cpp.o.d"
+  "CMakeFiles/ROS.dir/src/report.cpp.o"
+  "CMakeFiles/ROS.dir/src/report.cpp.o.d"
   "CMakeFiles/ROS.dir/src/sendrecv.cpp.o"
   "CMakeFiles/ROS.dir/src/sendrecv.cpp.o.d"
   "CMakeFiles/ROS.dir/src/telemetry.cpp.o"

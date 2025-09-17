@@ -78,8 +78,8 @@ typedef struct {
     uint32_t EPS_wdt_gnd_time_left;   // 4
     uint8_t  EPS_bootcause;           // 1
     uint8_t  EPS_battmode;            // 1
-    uint8_t  EPS_batt_heater_mode;    // 1
-    int16_t  EPS_BP4_Temperature[2];  // 4
+    // uint8_t  EPS_batt_heater_mode;    // 1
+    // int16_t  EPS_BP4_Temperature[2];  // 4
     uint8_t  EPS_solar_panel_deploy;  // 1
 
     // ===== ADCS (14 B) =====
@@ -96,7 +96,7 @@ typedef struct {
     uint16_t PAY_deorbit_adc[2];      // 4
 }__attribute__((packed)) Beacon;
 
-static_assert(sizeof(Beacon) == 148, "Beacon packed size must be 148 bytes");
+static_assert(sizeof(Beacon) == 143, "Beacon packed size must be 143 bytes");
 
 class BeaconHandler {
 private:

@@ -190,4 +190,5 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: \
  /usr/include/mysql/client_plugin.h /usr/include/c++/11/stdlib.h \
  /usr/include/mysql/plugin_auth_common.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
- /usr/include/mysql/errmsg.h
+ /usr/include/mysql/errmsg.h \
+ /home/hyvrid/COS_GS/back/sgs/ros/src/../inc/ros/report.h

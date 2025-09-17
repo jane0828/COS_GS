@@ -97,10 +97,24 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ROS.dir/src/fswcmd.cpp.s"
 	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/ros/src/fswcmd.cpp -o CMakeFiles/ROS.dir/src/fswcmd.cpp.s
 
+ros/CMakeFiles/ROS.dir/src/report.cpp.o: ros/CMakeFiles/ROS.dir/flags.make
+ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp
+ros/CMakeFiles/ROS.dir/src/report.cpp.o: ros/CMakeFiles/ROS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ros/CMakeFiles/ROS.dir/src/report.cpp.o"
+	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ros/CMakeFiles/ROS.dir/src/report.cpp.o -MF CMakeFiles/ROS.dir/src/report.cpp.o.d -o CMakeFiles/ROS.dir/src/report.cpp.o -c /home/hyvrid/COS_GS/back/sgs/ros/src/report.cpp
+
+ros/CMakeFiles/ROS.dir/src/report.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ROS.dir/src/report.cpp.i"
+	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyvrid/COS_GS/back/sgs/ros/src/report.cpp > CMakeFiles/ROS.dir/src/report.cpp.i
+
+ros/CMakeFiles/ROS.dir/src/report.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ROS.dir/src/report.cpp.s"
+	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/ros/src/report.cpp -o CMakeFiles/ROS.dir/src/report.cpp.s
+
 ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ros/CMakeFiles/ROS.dir/flags.make
 ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp
 ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ros/CMakeFiles/ROS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o"
 	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o -MF CMakeFiles/ROS.dir/src/sendrecv.cpp.o.d -o CMakeFiles/ROS.dir/src/sendrecv.cpp.o -c /home/hyvrid/COS_GS/back/sgs/ros/src/sendrecv.cpp
 
 ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.i: cmake_force
@@ -114,7 +128,7 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.s: cmake_force
 ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ros/CMakeFiles/ROS.dir/flags.make
 ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp
 ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ros/CMakeFiles/ROS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o"
 	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o -MF CMakeFiles/ROS.dir/src/telemetry.cpp.o.d -o CMakeFiles/ROS.dir/src/telemetry.cpp.o -c /home/hyvrid/COS_GS/back/sgs/ros/src/telemetry.cpp
 
 ros/CMakeFiles/ROS.dir/src/telemetry.cpp.i: cmake_force
@@ -128,7 +142,7 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.s: cmake_force
 ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ros/CMakeFiles/ROS.dir/flags.make
 ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp
 ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ros/CMakeFiles/ROS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ros/CMakeFiles/ROS.dir/src/v670.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ros/CMakeFiles/ROS.dir/src/v670.cpp.o"
 	cd /home/hyvrid/COS_GS/back/sgs/build/ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ros/CMakeFiles/ROS.dir/src/v670.cpp.o -MF CMakeFiles/ROS.dir/src/v670.cpp.o.d -o CMakeFiles/ROS.dir/src/v670.cpp.o -c /home/hyvrid/COS_GS/back/sgs/ros/src/v670.cpp
 
 ros/CMakeFiles/ROS.dir/src/v670.cpp.i: cmake_force
@@ -143,6 +157,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.s: cmake_force
 ROS_OBJECTS = \
 "CMakeFiles/ROS.dir/src/beacon.cpp.o" \
 "CMakeFiles/ROS.dir/src/fswcmd.cpp.o" \
+"CMakeFiles/ROS.dir/src/report.cpp.o" \
 "CMakeFiles/ROS.dir/src/sendrecv.cpp.o" \
 "CMakeFiles/ROS.dir/src/telemetry.cpp.o" \
 "CMakeFiles/ROS.dir/src/v670.cpp.o"
@@ -152,6 +167,7 @@ ROS_EXTERNAL_OBJECTS =
 
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/beacon.cpp.o
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o
+/home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/report.cpp.o
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/src/v670.cpp.o
@@ -168,7 +184,7 @@ ROS_EXTERNAL_OBJECTS =
 /home/hyvrid/COS_GS/back/bin/libROS.so: ../../bin/libDCS.so
 /home/hyvrid/COS_GS/back/bin/libROS.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
 /home/hyvrid/COS_GS/back/bin/libROS.so: ros/CMakeFiles/ROS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/hyvrid/COS_GS/back/bin/libROS.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library /home/hyvrid/COS_GS/back/bin/libROS.so"
 	cd /home/hyvrid/COS_GS/back/sgs/build/ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ROS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

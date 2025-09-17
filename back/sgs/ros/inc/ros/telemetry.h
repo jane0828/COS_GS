@@ -7,6 +7,7 @@
 #include <string>
 
 #include "beacon.h"   // Beacon 구조체 사용
+#include "report.h"
 
 
 #pragma pack(push, 1)
@@ -36,7 +37,7 @@ static constexpr size_t   TM_FIXED_HEADER = 36;            // 0..35 바이트 (p
 #pragma pack(push, 1)
 struct TelemetryHeader {
     uint32_t preamble;        // 0:  4  (0xA1B2C34D)
-    uint32_t total_len;       // 4:  4  (1..16384)  == N (payload 길이, CRC/포스트앰블 제외)
+    uint32_t total_len;       // 4:  4  
     uint32_t msg_type;        // 8:  4  (0x00)
     uint64_t irigb_time_tag;  // 12: 8
     float    sat_id;          // 20: 4  (문서대로 float 유지)
@@ -57,6 +58,7 @@ public:
     int parse_and_dispatch(const uint8_t* buf, size_t n);
     int dispatch_payload(const uint8_t* payload, size_t len);
     int handle_beacon_direct(const uint8_t* payload, size_t len);
+    int handle_report_direct(const uint8_t* payload, size_t len);
     int handle_csp_then_dispatch(const uint8_t* payload, size_t len); // TODO
     int handle_hk_direct(const uint8_t* payload, size_t len);         // TODO
 

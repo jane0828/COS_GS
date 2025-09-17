@@ -178,6 +178,30 @@ src/fswcmd.cpp.s:
 	cd /home/hyvrid/COS_GS/back/sgs/build && $(MAKE) $(MAKESILENT) -f ros/CMakeFiles/ROS.dir/build.make ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.s
 .PHONY : src/fswcmd.cpp.s
 
+src/report.o: src/report.cpp.o
+.PHONY : src/report.o
+
+# target to build an object file
+src/report.cpp.o:
+	cd /home/hyvrid/COS_GS/back/sgs/build && $(MAKE) $(MAKESILENT) -f ros/CMakeFiles/ROS.dir/build.make ros/CMakeFiles/ROS.dir/src/report.cpp.o
+.PHONY : src/report.cpp.o
+
+src/report.i: src/report.cpp.i
+.PHONY : src/report.i
+
+# target to preprocess a source file
+src/report.cpp.i:
+	cd /home/hyvrid/COS_GS/back/sgs/build && $(MAKE) $(MAKESILENT) -f ros/CMakeFiles/ROS.dir/build.make ros/CMakeFiles/ROS.dir/src/report.cpp.i
+.PHONY : src/report.cpp.i
+
+src/report.s: src/report.cpp.s
+.PHONY : src/report.s
+
+# target to generate assembly for a file
+src/report.cpp.s:
+	cd /home/hyvrid/COS_GS/back/sgs/build && $(MAKE) $(MAKESILENT) -f ros/CMakeFiles/ROS.dir/build.make ros/CMakeFiles/ROS.dir/src/report.cpp.s
+.PHONY : src/report.cpp.s
+
 src/sendrecv.o: src/sendrecv.cpp.o
 .PHONY : src/sendrecv.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... src/fswcmd.o"
 	@echo "... src/fswcmd.i"
 	@echo "... src/fswcmd.s"
+	@echo "... src/report.o"
+	@echo "... src/report.i"
+	@echo "... src/report.s"
 	@echo "... src/sendrecv.o"
 	@echo "... src/sendrecv.i"
 	@echo "... src/sendrecv.s"

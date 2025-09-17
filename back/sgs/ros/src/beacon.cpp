@@ -11,6 +11,8 @@
 // ===== 엔디안 도우미 (단 한 번 정의) =====
 static inline uint16_t LE16(uint16_t v) { return le16toh(v); }
 static inline uint32_t LE32(uint32_t v) { return le32toh(v); }
+static inline uint16_t BE16(uint16_t v) { return be16toh(v); }
+static inline uint32_t BE32(uint32_t v) { return be32toh(v); }
 
 // ===== 출력 유틸 (단 한 번 정의) =====
 static void print_u8_array(FILE* out, const char* name, const uint8_t* a, size_t n) {
@@ -32,7 +34,7 @@ static void print_i16_array(FILE* out, const char* name, const int16_t* a, size_
 static void dump_beacon(FILE* out, const Beacon& b, bool include_binary) {
     // ===== Header =====
     std::fprintf(out, "CCID=0x%04X Seq=0x%04X Len=%u\n",
-                 LE16(b.CCMessage_ID), LE16(b.CCSequence), LE16(b.CCLength));
+                 BE16(b.CCMessage_ID), BE16(b.CCSequence), BE16(b.CCLength)+7);
     std::fprintf(out, "Tcode=%02X %02X %02X %02X %02X %02X\n",
                  b.CCTime_code[0], b.CCTime_code[1], b.CCTime_code[2],
                  b.CCTime_code[3], b.CCTime_code[4], b.CCTime_code[5]);
@@ -87,13 +89,13 @@ static void dump_beacon(FILE* out, const Beacon& b, bool include_binary) {
     std::fprintf(out, " wdt_left=%u\n", LE32(b.EPS_wdt_gnd_time_left));
     std::fprintf(out, " bootcause=%u\n", b.EPS_bootcause);
     std::fprintf(out, " battmode=%u\n", b.EPS_battmode);
-    std::fprintf(out, " heater_mode=%u\n", b.EPS_batt_heater_mode);
+    // std::fprintf(out, " heater_mode=%u\n", b.EPS_batt_heater_mode);
 
     // std::puts("[SOLAR]==============================");
     std::fprintf(out, " deploy=%u\n", b.EPS_solar_panel_deploy);
-    std::fprintf(out, " BP4_Temperature=[%d, %d]\n",
-        (int16_t)LE16((uint16_t)b.EPS_BP4_Temperature[0]),
-        (int16_t)LE16((uint16_t)b.EPS_BP4_Temperature[1]));
+    // std::fprintf(out, " BP4_Temperature=[%d, %d]\n",
+    //     (int16_t)LE16((uint16_t)b.EPS_BP4_Temperature[0]),
+    //     (int16_t)LE16((uint16_t)b.EPS_BP4_Temperature[1]));
 
     // ===== ADCS =====
     // std::puts("[ADCS]===============================");

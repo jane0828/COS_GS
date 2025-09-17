@@ -193,7 +193,7 @@ int main(int argc, char* argv[])
     std::signal(SIGTERM, on_signal);
 
     SendRecv srv;
-    std::thread th([&]{ srv.start_recv(g_run); });
+    std::thread t_tcp([&]{ srv.start_recv_tcp(g_run); });
 
 
     MySQLDatabase mysqldb("localhost", "aclgs", "qwe123", "cosmic");
@@ -229,7 +229,7 @@ int main(int argc, char* argv[])
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 
-    if (th.joinable()) th.join();
+    if (t_tcp.joinable()) t_tcp.join();
     return 0;
 
 }
