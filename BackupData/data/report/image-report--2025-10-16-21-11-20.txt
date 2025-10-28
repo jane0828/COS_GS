@@ -1,0 +1,136 @@
+[SESSION]
+file_id        : (unknown)
+mode           : STREAM
+recv_time      : 2025-10-16 21:11:20
+
+[RECEIVED]
+packets_ok     : 117
+packet #1 - Expected : 128, Received : 128
+packet #2 - Expected : 128, Received : 128
+packet #3 - Expected : 128, Received : 128
+packet #4 - Expected : 128, Received : 128
+packet #5 - Expected : 128, Received : 128
+packet #6 - Expected : 128, Received : 128
+packet #7 - Expected : 128, Received : 128
+packet #8 - Expected : 128, Received : 128
+packet #9 - Expected : 128, Received : 128
+packet #10 - Expected : 128, Received : 128
+packet #11 - Expected : 128, Received : 128
+packet #12 - Expected : 128, Received : 128
+packet #13 - Expected : 128, Received : 128
+packet #14 - Expected : 128, Received : 128
+packet #15 - Expected : 128, Received : 128
+packet #16 - Expected : 128, Received : 128
+packet #17 - Expected : 128, Received : 128
+packet #18 - Expected : 128, Received : 128
+packet #19 - Expected : 128, Received : 128
+packet #20 - Expected : 128, Received : 128
+packet #21 - Expected : 128, Received : 128
+packet #22 - Expected : 128, Received : 128
+packet #23 - Expected : 128, Received : 128
+packet #24 - Expected : 128, Received : 128
+packet #25 - Expected : 128, Received : 128
+packet #26 - Expected : 128, Received : 128
+packet #27 - Expected : 128, Received : 128
+packet #28 - Expected : 128, Received : 128
+packet #29 - Expected : 128, Received : 128
+packet #30 - Expected : 128, Received : 128
+packet #31 - Expected : 128, Received : 128
+packet #32 - Expected : 128, Received : 128
+packet #33 - Expected : 128, Received : 128
+packet #34 - Expected : 128, Received : 128
+packet #35 - Expected : 128, Received : 128
+packet #36 - Expected : 128, Received : 128
+packet #37 - Expected : 128, Received : 128
+packet #38 - Expected : 128, Received : 128
+packet #39 - Expected : 128, Received : 128
+packet #40 - Expected : 128, Received : 128
+packet #41 - Expected : 128, Received : 128
+packet #42 - Expected : 128, Received : 128
+packet #43 - Expected : 128, Received : 128
+packet #44 - Expected : 128, Received : 128
+packet #45 - Expected : 128, Received : 128
+packet #46 - Expected : 128, Received : 128
+packet #47 - Expected : 128, Received : 128
+packet #48 - Expected : 128, Received : 128
+packet #49 - Expected : 128, Received : 128
+packet #50 - Expected : 128, Received : 128
+packet #51 - Expected : 128, Received : 128
+packet #52 - Expected : 128, Received : 128
+packet #53 - Expected : 128, Received : 128
+packet #54 - Expected : 128, Received : 128
+packet #55 - Expected : 128, Received : 128
+packet #56 - Expected : 128, Received : 128
+packet #57 - Expected : 128, Received : 128
+packet #58 - Expected : 128, Received : 128
+packet #59 - Expected : 128, Received : 128
+packet #60 - Expected : 128, Received : 128
+packet #61 - Expected : 128, Received : 128
+packet #62 - Expected : 128, Received : 128
+packet #63 - Expected : 128, Received : 128
+packet #64 - Expected : 128, Received : 128
+packet #65 - Expected : 128, Received : 128
+packet #66 - Expected : 128, Received : 128
+packet #67 - Expected : 128, Received : 128
+packet #68 - Expected : 128, Received : 128
+packet #69 - Expected : 128, Received : 128
+packet #70 - Expected : 128, Received : 128
+packet #71 - Expected : 128, Received : 128
+packet #72 - Expected : 128, Received : 128
+packet #73 - Expected : 128, Received : 128
+packet #74 - Expected : 128, Received : 128
+packet #75 - Expected : 128, Received : 128
+packet #76 - Expected : 128, Received : 128
+packet #77 - Expected : 128, Received : 128
+packet #78 - Expected : 128, Received : 128
+packet #79 - Expected : 128, Received : 128
+packet #80 - Expected : 128, Received : 128
+packet #81 - Expected : 128, Received : 128
+packet #82 - Expected : 128, Received : 128
+packet #83 - Expected : 128, Received : 128
+packet #84 - Expected : 128, Received : 128
+packet #85 - Expected : 128, Received : 128
+packet #86 - Expected : 128, Received : 128
+packet #87 - Expected : 128, Received : 128
+packet #88 - Expected : 128, Received : 128
+packet #89 - Expected : 128, Received : 128
+packet #90 - Expected : 128, Received : 128
+packet #91 - Expected : 128, Received : 128
+packet #92 - Expected : 128, Received : 128
+packet #93 - Expected : 128, Received : 128
+packet #94 - Expected : 128, Received : 128
+packet #95 - Expected : 128, Received : 128
+packet #96 - Expected : 128, Received : 128
+packet #97 - Expected : 128, Received : 128
+packet #98 - Expected : 128, Received : 128
+packet #99 - Expected : 128, Received : 128
+packet #100 - Expected : 128, Received : 128
+packet #101 - Expected : 128, Received : 128
+packet #102 - Expected : 128, Received : 128
+packet #103 - Expected : 128, Received : 128
+packet #104 - Expected : 128, Received : 128
+packet #105 - Expected : 128, Received : 128
+packet #106 - Expected : 128, Received : 128
+packet #107 - Expected : 128, Received : 128
+packet #108 - Expected : 128, Received : 128
+packet #109 - Expected : 128, Received : 128
+packet #110 - Expected : 128, Received : 128
+packet #111 - Expected : 128, Received : 128
+packet #112 - Expected : 128, Received : 128
+packet #113 - Expected : 128, Received : 128
+packet #114 - Expected : 128, Received : 128
+packet #115 - Expected : 128, Received : 128
+packet #116 - Expected : 128, Received : 128
+packet #117 - Expected : 128, Received : 108
+
+[SEQUENCE]
+flags_present  : FIRST=Yes, CONT=Yes, LAST=No
+continuity     : OK (no gap/dup)
+
+[JPEG]
+SOI/EOI        : OK (FFD8 ... FFD9)
+
+[REREQUEST]
+missing_packets: (none)
+byte_ranges    : (none)
+

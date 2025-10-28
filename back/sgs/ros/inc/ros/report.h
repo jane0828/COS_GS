@@ -5,7 +5,8 @@
 #include <cstdint>
 #include <string>
 
-#define REPORT_CC_ID 0x0825   // Report 메시지 식별자
+#define REPORT1_CC_ID 0x0825   // Report 메시지 식별자
+#define REPORT2_CC_ID 0x0826   // Report 메시지 식별자
 
 #pragma pack(push,1)
 struct Report {

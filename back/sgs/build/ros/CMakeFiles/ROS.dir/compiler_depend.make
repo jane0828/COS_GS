@@ -49,9 +49,13 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -80,6 +84,7 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -99,6 +104,7 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   ../ros/inc/ros/beacon.h \
   /usr/include/c++/11/iostream \
@@ -113,6 +119,7 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -187,7 +194,9 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
@@ -232,7 +241,282 @@ ros/CMakeFiles/ROS.dir/src/beacon.cpp.o: ../ros/src/beacon.cpp \
   /usr/include/mysql/plugin_auth_common.h \
   /usr/include/mysql/mysql_version.h \
   /usr/include/mysql/mysql_time.h \
-  /usr/include/mysql/errmsg.h
+  /usr/include/mysql/errmsg.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc
+
+ros/CMakeFiles/ROS.dir/src/bitstream.cpp.o: ../ros/src/bitstream.cpp \
+  /usr/include/stdc-predef.h \
+  ../ros/inc/ros/bitstream.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/x86_64-linux-gnu/bits/statx.h \
+  /usr/include/linux/stat.h \
+  /usr/include/linux/types.h \
+  /usr/include/x86_64-linux-gnu/asm/types.h \
+  /usr/include/asm-generic/types.h \
+  /usr/include/asm-generic/int-ll64.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h
 
 ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/stdc-predef.h \
@@ -272,11 +556,15 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -303,6 +591,7 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -375,8 +664,11 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
@@ -446,6 +738,7 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/arpa/inet.h \
@@ -455,6 +748,7 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/jsoncpp/json/json.h \
@@ -520,6 +814,433 @@ ros/CMakeFiles/ROS.dir/src/fswcmd.cpp.o: ../ros/src/fswcmd.cpp \
   /usr/include/c++/11/bits/stl_stack.h \
   /usr/include/jsoncpp/json/writer.h
 
+ros/CMakeFiles/ROS.dir/src/globals.cpp.o: ../ros/src/globals.cpp \
+  /usr/include/stdc-predef.h \
+  ../ros/inc/ros/bitstream.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc
+
+ros/CMakeFiles/ROS.dir/src/image_extract.cpp.o: ../ros/src/image_extract.cpp \
+  /usr/include/stdc-predef.h \
+  ../ros/inc/ros/image_extract.h \
+  /usr/include/c++/11/cstdint \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  ../ros/inc/ros/bitstream.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+
 ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/ctime \
@@ -568,9 +1289,13 @@ ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -599,6 +1324,7 @@ ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -618,6 +1344,7 @@ ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   ../ros/inc/ros/report.h \
   /usr/include/c++/11/cstdint \
@@ -650,6 +1377,7 @@ ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
@@ -696,7 +1424,9 @@ ros/CMakeFiles/ROS.dir/src/report.cpp.o: ../ros/src/report.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
@@ -751,6 +1481,8 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
@@ -764,6 +1496,8 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
@@ -775,6 +1509,7 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/arpa/inet.h \
@@ -793,6 +1528,7 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -813,6 +1549,7 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/x86_64-linux-gnu/sys/time.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -837,6 +1574,7 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -870,32 +1608,64 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/vector.tcc \
-  ../ros/inc/ros/beacon.h \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
@@ -909,25 +1679,21 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  ../ros/inc/ros/beacon.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
@@ -965,7 +1731,15 @@ ros/CMakeFiles/ROS.dir/src/sendrecv.cpp.o: ../ros/src/sendrecv.cpp \
   ../ros/inc/ros/sendrecv.h \
   ../ros/inc/ros/telemetry.h \
   /usr/include/c++/11/cstddef \
-  ../ros/inc/ros/report.h
+  ../ros/inc/ros/report.h \
+  ../ros/inc/ros/bitstream.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  ../ros/inc/ros/image_extract.h \
+  ../ros/inc/ros/globals.h
 
 ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/stdc-predef.h \
@@ -999,11 +1773,15 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -1027,6 +1805,7 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1047,6 +1826,7 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
@@ -1075,6 +1855,7 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -1129,7 +1910,9 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
@@ -1154,6 +1937,11 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
   /usr/include/c++/11/ctime \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
   ../ros/inc/ros/telemetry.h \
   /usr/include/c++/11/cstddef \
   ../ros/inc/ros/beacon.h \
@@ -1201,7 +1989,15 @@ ros/CMakeFiles/ROS.dir/src/telemetry.cpp.o: ../ros/src/telemetry.cpp \
   /usr/include/mysql/mysql_version.h \
   /usr/include/mysql/mysql_time.h \
   /usr/include/mysql/errmsg.h \
-  ../ros/inc/ros/report.h
+  ../ros/inc/ros/report.h \
+  ../ros/inc/ros/ccsds_defs.h \
+  ../ros/inc/ros/bitstream.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  ../ros/inc/ros/globals.h
 
 ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/stdc-predef.h \
@@ -1242,6 +2038,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1347,8 +2144,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1357,6 +2157,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1434,6 +2236,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/jsoncpp/json/version.h \
   /usr/include/jsoncpp/json/json_features.h \
   /usr/include/jsoncpp/json/forwards.h \
@@ -1457,20 +2261,20 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/jsoncpp/json/writer.h \
   ../utl/inc/utl/error.h \
   ../utl/inc/utl/ws.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
   /usr/include/c++/11/condition_variable \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
@@ -1482,20 +2286,20 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -1503,15 +2307,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp \
   /usr/include/netinet/in.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1530,14 +2334,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/bits/quoted_string.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp \
   /usr/include/c++/11/random \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -1569,14 +2374,14 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/c++/11/numeric \
   /usr/include/c++/11/bits/stl_numeric.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp \
   /usr/include/boost/version.hpp \
   /usr/include/boost/asio/steady_timer.hpp \
   /usr/include/boost/asio/detail/config.hpp \
@@ -1593,6 +2398,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/boost/config/detail/select_platform_config.hpp \
@@ -1809,6 +2615,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
   /usr/include/x86_64-linux-gnu/sys/eventfd.h \
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
   /usr/include/boost/asio/detail/socket_types.hpp \
@@ -1824,6 +2631,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/poll.h \
   /usr/include/x86_64-linux-gnu/sys/poll.h \
   /usr/include/x86_64-linux-gnu/bits/poll.h \
+  /usr/include/x86_64-linux-gnu/bits/poll2.h \
   /usr/include/x86_64-linux-gnu/sys/uio.h \
   /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
   /usr/include/x86_64-linux-gnu/sys/un.h \
@@ -2134,7 +2942,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/boost/asio/detail/completion_handler.hpp \
   /usr/include/boost/asio/impl/io_context.ipp \
   /usr/include/boost/asio/wait_traits.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp \
   /usr/include/boost/asio.hpp \
   /usr/include/boost/asio/awaitable.hpp \
   /usr/include/boost/asio/basic_datagram_socket.hpp \
@@ -2506,29 +3314,29 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
-  /home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp \
+  /home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp \
   ../utl/inc/utl/db.h \
   /usr/include/mysql/mysql.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
@@ -2547,42 +3355,42 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
   ../ifc/inc/ifc/ifc.h \
   ../ifc/inc/ifc/ifc_csp.h \
   /usr/include/inttypes.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h \
   ../ifc/inc/ifc/ifc_filesys.h \
   ../ifc/inc/ifc/ifc_ip.h \
   ../ifc/inc/ifc/ifc_serial.h \
   ../dcs/inc/dcs/dcs.h \
   ../dcs/inc/dcs/gs100.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
-  /home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h \
+  /home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h \
   ../dcs/inc/dcs/gs232b.h \
   ../dcs/inc/dcs/kta223.h \
   ../dcs/inc/dcs/q5signal.h \
@@ -2596,19 +3404,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 ../ros/inc/ros/v680.h:
 
-../dcs/inc/dcs/gs232b.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/table.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h:
 
 ../dcs/inc/dcs/gs100.h:
 
@@ -2618,51 +3416,47 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 ../ifc/inc/ifc/ifc_filesys.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_rtable.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/pgm.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/types.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h:
+../dcs/inc/dcs/gs232b.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/log/log.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h:
+/home/aclgs/COS_GS/back/lib/gscsp/build/lib/libgscsp/lib/libcsp/include/csp/csp_autoconfig.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_platform.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/version.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi08.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi07.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi00.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/base.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/close.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utf8_validator.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/client.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/close.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp:
 
 /usr/include/boost/asio/write_at.hpp:
 
@@ -2675,8 +3469,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/windows/object_handle.hpp:
 
 /usr/include/boost/asio/windows/basic_stream_handle.hpp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h:
 
 /usr/include/boost/asio/windows/basic_overlapped_handle.hpp:
 
@@ -2708,9 +3500,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/predef/version.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/error.h:
-
 /usr/include/boost/predef/hardware/simd/arm/versions.h:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h:
 
 /usr/include/boost/predef/hardware/simd/arm.h:
 
@@ -2720,7 +3512,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/predef/hardware/simd/x86_amd.h:
 
-/usr/include/boost/predef/hardware/simd/x86.h:
+/usr/include/boost/predef/hardware/simd.h:
 
 /usr/include/boost/predef/hardware.h:
 
@@ -2744,8 +3536,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/predef/platform.h:
 
-/usr/include/boost/predef/other/endian.h:
-
 ../dcs/inc/dcs/q5signal.h:
 
 /usr/include/boost/predef/other.h:
@@ -2761,8 +3551,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/os/qnxnto.h:
 
 /usr/include/boost/predef/detail/os_detected.h:
-
-/usr/include/boost/predef/os/linux.h:
 
 /usr/include/boost/predef/os/irix.h:
 
@@ -2784,6 +3572,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/predef/os/beos.h:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint.hpp:
+
 /usr/include/boost/predef/os/amigaos.h:
 
 /usr/include/boost/predef/os/aix.h:
@@ -2801,8 +3591,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/library/std/libcomo.h:
 
 /usr/include/boost/predef/library/std/dinkumware.h:
-
-/usr/include/boost/predef/library/std.h:
 
 /usr/include/boost/predef/library/c/zos.h:
 
@@ -2838,6 +3626,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 ../ros/inc/ros/ax100.h:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h:
+
 /usr/include/boost/predef/compiler/mpw.h:
 
 /usr/include/boost/predef/compiler/microtec.h:
@@ -2845,8 +3635,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/compiler/metaware.h:
 
 /usr/include/boost/predef/compiler/llvm.h:
-
-/usr/include/boost/predef/compiler/kai.h:
 
 /usr/include/boost/predef/compiler/intel.h:
 
@@ -2876,6 +3664,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/predef/compiler/comeau.h:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/processor.hpp:
+
 /usr/include/boost/predef/compiler/clang.h:
 
 /usr/include/boost/predef/compiler/borland.h:
@@ -2897,6 +3687,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/architecture/rs6k.h:
 
 /usr/include/boost/predef/architecture/riscv.h:
+
+/usr/include/boost/predef/architecture/ptx.h:
 
 /usr/include/boost/predef/architecture/ppc.h:
 
@@ -2972,8 +3764,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/ip/multicast.hpp:
 
-/usr/include/boost/asio/ip/impl/host_name.ipp:
-
 /usr/include/boost/asio/windows/random_access_handle.hpp:
 
 /usr/include/boost/asio/detail/impl/resolver_service_base.ipp:
@@ -2982,39 +3772,45 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/resolve_op.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/boost/asio/detail/resolver_service.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/boost/asio/ip/resolver_base.hpp:
 
-/usr/include/x86_64-linux-gnu/asm/socket.h:
+/usr/include/boost/asio/ip/basic_resolver_results.hpp:
 
-/usr/include/boost/asio/prefer.hpp:
+/usr/include/boost/asio/ip/basic_resolver_query.hpp:
 
-/usr/include/boost/exception/exception.hpp:
+/usr/include/boost/asio/ip/basic_resolver_entry.hpp:
 
-/usr/include/boost/asio/detail/conditionally_enabled_event.hpp:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h:
 
 /usr/include/boost/asio/ip/basic_resolver.hpp:
 
-/usr/include/boost/asio/execution/blocking_adaptation.hpp:
+/usr/include/boost/asio/ip/impl/basic_endpoint.hpp:
 
-/usr/include/boost/current_function.hpp:
+/usr/include/boost/asio/ip/detail/impl/endpoint.ipp:
 
-/usr/include/boost/asio/detail/throw_exception.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp:
 
-/usr/include/boost/asio/detail/scoped_ptr.hpp:
+/usr/include/boost/asio/ip/detail/endpoint.hpp:
 
-/usr/include/boost/asio/detail/non_const_lvalue.hpp:
+/usr/include/boost/asio/ip/basic_endpoint.hpp:
 
-/usr/include/boost/asio/impl/post.hpp:
+/usr/include/boost/asio/ip/network_v6.hpp:
 
-/usr/include/boost/asio/detail/keyword_tss_ptr.hpp:
+/usr/include/boost/asio/ip/impl/network_v4.ipp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/boost/asio/ip/address_v6_iterator.hpp:
 
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+/usr/include/boost/asio/ip/address_v4_range.hpp:
+
+/usr/include/boost/asio/ip/impl/address.ipp:
+
+/usr/include/boost/asio/ip/impl/address.hpp:
 
 /usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
+
+/usr/include/c++/11/codecvt:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -3026,25 +3822,35 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/locale:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/csp.h:
-
 /usr/include/boost/asio/impl/buffered_write_stream.hpp:
-
-/usr/include/boost/asio/ip/detail/endpoint.hpp:
 
 /usr/include/boost/asio/traits/connect_member.hpp:
 
-/usr/include/boost/asio/execution/start.hpp:
+/usr/include/boost/asio/traits/start_free.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/boost/asio/detail/thread_info_base.hpp:
+
+/usr/include/boost/asio/execution/detail/as_operation.hpp:
 
 /usr/include/boost/asio/execution/detail/void_receiver.hpp:
 
 /usr/include/boost/static_assert.hpp:
 
-/usr/include/boost/asio/ip/impl/address.ipp:
+/usr/include/boost/asio/execution/schedule.hpp:
 
-/usr/include/boost/asio/traits/schedule_free.hpp:
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/boost/type_traits/detail/config.hpp:
+
+/usr/include/boost/asio/socket_base.hpp:
 
 /usr/include/boost/asio/traits/execute_member.hpp:
+
+/usr/include/boost/exception/exception.hpp:
+
+/usr/include/boost/asio/detail/conditionally_enabled_event.hpp:
 
 /usr/include/boost/asio/traits/set_value_free.hpp:
 
@@ -3053,8 +3859,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp:
 
 /usr/include/boost/predef/compiler/gcc_xml.h:
 
@@ -3068,12 +3872,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/boost/asio/detail/type_traits.hpp:
-
-/usr/include/c++/11/stack:
-
-/usr/include/boost/asio/basic_waitable_timer.hpp:
-
 /usr/include/boost/asio/traits/static_query.hpp:
 
 /usr/include/c++/11/cwchar:
@@ -3081,6 +3879,14 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
 
 /usr/include/boost/config/helper_macros.hpp:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/include/boost/asio/basic_socket.hpp:
+
+/usr/include/boost/predef/platform/android.h:
+
+/usr/include/boost/asio/detail/config.hpp:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
@@ -3092,17 +3898,19 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/config/detail/select_compiler_config.hpp:
 
+/usr/include/boost/predef/hardware/simd/x86.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp:
+
 /usr/include/c++/11/cstdarg:
 
-/usr/include/boost/predef/platform/android.h:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp:
 
-/usr/include/boost/asio/detail/config.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp:
 
-/usr/include/boost/version.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp:
-
-/usr/include/boost/asio/system_executor.hpp:
+/usr/include/boost/preprocessor/array/data.hpp:
 
 /usr/include/c++/11/bits/stl_numeric.h:
 
@@ -3118,10 +3926,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/aux_/has_apply.hpp:
 
-/usr/include/c++/11/bits/ostream.tcc:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
@@ -3130,107 +3934,93 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/boost/asio/detail/tss_ptr.hpp:
 
 /usr/include/boost/asio/ip/address_v6.hpp:
 
 /usr/include/c++/11/random:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/random.hpp:
 
-/usr/include/boost/asio/execution/any_executor.hpp:
+/usr/include/c++/11/bits/streambuf_iterator.h:
 
-/usr/include/c++/11/bits/quoted_string.h:
+/usr/include/boost/asio/traits/query_free.hpp:
 
-/usr/include/c++/11/condition_variable:
+/usr/include/boost/predef/library/std.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h:
+/usr/include/c++/11/new:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp:
 
-/usr/include/boost/config/platform/linux.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+/usr/include/c++/11/bits/ostream.tcc:
 
-/usr/include/boost/asio/execution/bulk_execute.hpp:
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp:
 
-/usr/include/c++/11/bits/basic_ios.h:
+/usr/include/c++/11/vector:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp:
 
-/usr/include/boost/asio/detail/reactive_socket_accept_op.hpp:
+/usr/include/boost/mpl/aux_/na.hpp:
 
-/usr/include/boost/asio/posix/stream_descriptor.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/termios.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/bits/locale_facets_nonio.h:
+/usr/include/boost/asio/detail/reactive_wait_op.hpp:
 
-/usr/include/c++/11/tuple:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/error.hpp:
 
-/usr/include/boost/config/detail/select_platform_config.hpp:
+/usr/include/boost/version.hpp:
 
-/usr/include/boost/asio/basic_socket.hpp:
+/usr/include/boost/predef/os/linux.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp:
 
-/usr/include/boost/asio/traits/query_member.hpp:
+/usr/include/boost/mpl/aux_/nttp_decl.hpp:
 
-/usr/include/c++/11/cstddef:
+/usr/include/boost/date_time/date_duration_types.hpp:
 
-/usr/include/boost/asio/traits/start_free.hpp:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_debug.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/boost/asio/detail/type_traits.hpp:
 
-/usr/include/boost/asio/detail/thread_info_base.hpp:
+/usr/include/c++/11/stack:
 
-/usr/include/boost/asio/execution/detail/as_operation.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/request.hpp:
+/usr/include/boost/predef/platform/mingw64.h:
 
-/usr/include/c++/11/bits/locale_conv.h:
+/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/connection.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp:
 
-/usr/include/c++/11/string:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp:
 
-/usr/include/boost/predef/hardware/simd.h:
+/usr/include/boost/date_time/date_duration.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/system_error.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp:
+/usr/include/boost/asio/detail/signal_op.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
+/usr/include/boost/asio/generic/seq_packet_protocol.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp:
+/usr/include/boost/preprocessor/facilities/identity.hpp:
 
-/usr/include/boost/asio/execution/schedule.hpp:
+/usr/include/boost/asio/detail/null_event.hpp:
 
-/usr/include/c++/11/bits/vector.tcc:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/usr/include/boost/type_traits/detail/config.hpp:
-
-/usr/include/boost/asio/socket_base.hpp:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/boost/asio/multiple_exceptions.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp:
-
-/usr/include/c++/11/ratio:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp:
 
 /usr/include/boost/config/detail/posix_features.hpp:
 
@@ -3240,17 +4030,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/epoll_reactor.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/client.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+../utl/inc/utl/console.h:
 
 /usr/include/c++/11/fstream:
-
-../utl/inc/utl/console.h:
 
 ../utl/inc/utl/utl.h:
 
@@ -3264,6 +4046,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/fcntl.h:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp:
+
 ../ros/src/telemetry.cpp:
 
 /usr/include/c++/11/atomic:
@@ -3274,15 +4058,13 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_sfp.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
 /usr/include/boost/preprocessor/comma_if.hpp:
-
-/usr/include/boost/regex_fwd.hpp:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
-
-/usr/include/jsoncpp/json/writer.h:
 
 /usr/include/c++/11/bits/stl_stack.h:
 
@@ -3290,13 +4072,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/execution/execute.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/thread.hpp:
+/usr/include/boost/asio/execution/start.hpp:
 
-/usr/include/boost/date_time/posix_time/ptime.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp:
 
-/usr/include/boost/asio/detail/timer_queue_base.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/concurrency/basic.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/c++/11/bits/deque.tcc:
 
@@ -3304,19 +4084,13 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/traits/execute_free.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/parser.hpp:
-
 /usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/boost/asio/high_resolution_timer.hpp:
-
-/usr/include/wctype.h:
-
-/usr/include/boost/asio/detail/handler_tracking.hpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/c++/11/bits/stl_map.h:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/rtable.h:
 
 /usr/include/boost/asio/execution/operation_state.hpp:
 
@@ -3324,19 +4098,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/stl_tree.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp:
-
-/usr/include/boost/asio/ip/address_v4_range.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp:
-
-/usr/include/boost/asio/traits/require_member.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
 /usr/include/boost/asio/detail/impl/timer_queue_ptime.ipp:
 
 /usr/include/jsoncpp/json/version.h:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/mutex.h:
 
 /usr/include/boost/asio/detail/reactive_socket_recv_op.hpp:
 
@@ -3348,11 +4114,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/smart_ptr/detail/yield_k.hpp:
 
-/usr/include/c++/11/sstream:
-
 /usr/include/linux/stat.h:
 
 /usr/include/boost/asio/execution/sender.hpp:
+
+../ros/inc/ros/ccsds_defs.h:
 
 /usr/include/boost/mpl/if.hpp:
 
@@ -3364,12 +4130,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/random.tcc:
 
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/boost/mpl/aux_/config/lambda.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
 /usr/include/c++/11/bit:
 
 /usr/include/boost/date_time/microsec_time_clock.hpp:
@@ -3378,9 +4138,13 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/11/memory:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp:
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
 
 /usr/include/jsoncpp/json/config.h:
 
@@ -3398,13 +4162,33 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
+/usr/include/boost/asio/detail/keyword_tss_ptr.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/config/core_client.hpp:
+
+/usr/include/boost/asio/detail/scheduler.hpp:
+
+/usr/include/boost/mpl/aux_/lambda_support.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/boost/numeric/conversion/detail/meta.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/constants.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+../ros/inc/ros/image_extract.h:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h:
 
 /usr/include/boost/asio/ip/icmp.hpp:
 
@@ -3416,51 +4200,129 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp.h:
+
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/boost/asio/posix/basic_stream_descriptor.hpp:
-
-/usr/include/linux/version.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /usr/include/c++/11/bits/unordered_map.h:
 
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
-/usr/include/boost/asio/ip/impl/basic_endpoint.hpp:
+/usr/include/boost/regex/config.hpp:
 
-/usr/include/c++/11/streambuf:
+/usr/include/boost/preprocessor/control/detail/while.hpp:
 
-/usr/include/boost/asio/traits/bulk_execute_member.hpp:
+/usr/include/boost/asio/detail/recycling_allocator.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+/usr/include/asm-generic/socket.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+/usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/11/unordered_map:
 
-/usr/include/boost/asio/error.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp:
+
+/usr/include/netinet/in.h:
+
+/usr/include/boost/asio/detail/scoped_lock.hpp:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/boost/asio/detail/posix_static_mutex.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/c++/11/algorithm:
+
+../ros/src/image_extract.cpp:
+
+/usr/include/boost/asio/ip/impl/host_name.ipp:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/boost/asio/basic_waitable_timer.hpp:
+
+/usr/include/c++/11/bits/fs_dir.h:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/boost/asio/executor.hpp:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/boost/mpl/aux_/config/lambda.hpp:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/boost/asio/execution/any_executor.hpp:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/usr/include/boost/mpl/aux_/config/workaround.hpp:
+
+/usr/include/boost/asio/associated_allocator.hpp:
+
+/usr/include/boost/asio/ip/detail/socket_option.hpp:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/boost/asio/traits/set_value_member.hpp:
 
 /usr/include/boost/asio/traits/prefer_member.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/poll.h:
+/usr/include/c++/11/tuple:
 
-/usr/include/boost/asio/execution/detail/bulk_sender.hpp:
+/usr/include/boost/asio/posix/basic_stream_descriptor.hpp:
 
-/usr/include/c++/11/bits/move.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
-/usr/include/boost/asio/windows/basic_object_handle.hpp:
+/usr/include/linux/version.h:
 
-/usr/include/boost/asio/impl/redirect_error.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
-/usr/include/boost/asio/buffered_stream.hpp:
+/usr/include/boost/config/platform/linux.hpp:
 
-/usr/include/boost/asio/query.hpp:
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/external/csp_debug.h:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/boost/asio/execution/bulk_execute.hpp:
+
+/usr/include/jsoncpp/json/writer.h:
+
+/usr/include/boost/regex_fwd.hpp:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/boost/asio/detail/reactive_socket_accept_op.hpp:
+
+/usr/include/boost/asio/posix/stream_descriptor.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/termios.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/limits.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
@@ -3472,15 +4334,29 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/charconv.h:
 
-/usr/include/boost/asio/traits/require_concept_free.hpp:
+/usr/include/boost/asio/detail/tss_ptr.hpp:
 
-../ros/inc/ros/ros.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/c++/11/bits/nested_exception.h:
+/usr/include/boost/asio/traits/schedule_free.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/include/boost/asio/traits/require_member.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/memory.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
@@ -3489,12 +4365,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/signal.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/boost/predef/architecture/ptx.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/error.hpp:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
@@ -3506,17 +4376,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/type_traits/conditional.hpp:
 
+/usr/include/boost/predef/architecture.h:
+
+/usr/include/boost/asio/buffered_write_stream_fwd.hpp:
+
 /usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/boost/asio/detail/posix_static_mutex.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
@@ -3526,21 +4390,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
 
-/usr/include/netinet/in.h:
-
-/usr/include/boost/asio/detail/scoped_lock.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/boost/asio/execution/detail/as_receiver.hpp:
 
 /usr/include/boost/asio/detail/thread_context.hpp:
-
-/usr/include/boost/asio/detail/call_stack.hpp:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/boost/predef/os/cygwin.h:
 
@@ -3548,19 +4402,19 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+/usr/include/c++/11/bits/fs_path.h:
+
 /usr/include/boost/predef/library/std/vacpp.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/usr/include/boost/predef/os.h:
-
-/usr/include/x86_64-linux-gnu/sys/timerfd.h:
-
-/usr/include/mysql/client_plugin.h:
-
 /usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp:
+
+/usr/include/boost/asio/detail/reactive_socket_service_base.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -3568,25 +4422,21 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/impl/compose.hpp:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
 /usr/include/boost/asio/traits/query_static_constexpr_member.hpp:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/boost/asio/execution/set_value.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
 /usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp:
 
 /usr/include/boost/mpl/equal_to.hpp:
 
@@ -3594,17 +4444,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/postypes.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/base.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
+/usr/include/linux/posix_types.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/boost/asio/detail/null_event.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /usr/include/libintl.h:
 
@@ -3615,6 +4457,10 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/x86_64-linux-gnu/bits/socket.h:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/linux/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
@@ -3628,11 +4474,31 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/boost/asio/detail/reactive_socket_sendto_op.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
 /usr/include/locale.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/boost/asio/error.hpp:
+
+/usr/include/boost/asio/ip/basic_resolver_iterator.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/frame.hpp:
+
+/usr/include/boost/mpl/void.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+
+/usr/include/boost/asio/impl/executor.hpp:
+
+/usr/include/c++/11/cwctype:
 
 /usr/include/boost/asio/time_traits.hpp:
 
@@ -3642,37 +4508,27 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/bool_fwd.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/boost/asio/traits/require_free.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/ioctl.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/functional.hpp:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/boost/asio/detail/reactive_serial_port_service.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/time.hpp:
-
-/usr/include/boost/asio/detail/executor_op.hpp:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/11/climits:
 
 /usr/include/boost/asio/generic/basic_endpoint.hpp:
 
-/usr/include/c++/11/new:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/parser.hpp:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/boost/asio/detail/executor_op.hpp:
+
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -3680,15 +4536,29 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
+/usr/include/boost/asio/detail/call_stack.hpp:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/boost/predef/compiler/kai.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
 /usr/include/boost/asio/detail/date_time_fwd.hpp:
 
 /usr/include/assert.h:
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
-
-/usr/include/boost/asio/detail/global.hpp:
-
-/usr/include/boost/asio/detail/cstddef.hpp:
 
 /usr/include/boost/asio/detail/consuming_buffers.hpp:
 
@@ -3708,11 +4578,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/stl_deque.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/response.hpp:
-
 /usr/include/boost/asio/detail/array_fwd.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp:
 
 /usr/include/boost/asio/coroutine.hpp:
 
@@ -3724,9 +4590,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/impl/handler_alloc_hook.ipp:
 
-/usr/include/boost/asio/basic_seq_packet_socket.hpp:
+/usr/include/c++/11/bits/locale_classes.tcc:
 
-/usr/include/boost/asio/impl/buffered_read_stream.hpp:
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/11/ctime:
 
@@ -3735,8 +4601,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/mysql/mysql_com.h:
 
 /usr/include/boost/system/system_error.hpp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_error.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -3758,7 +4622,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/fcntl2.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/md5.hpp:
+
+/usr/include/boost/mpl/identity.hpp:
 
 /usr/include/boost/asio/execution/scheduler.hpp:
 
@@ -3772,11 +4640,37 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/execution/set_error.hpp:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/roles/client_endpoint.hpp:
+
 ../ros/inc/ros/report.h:
 
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/sys/poll.h:
+
+/usr/include/boost/asio/execution/detail/bulk_sender.hpp:
+
+/usr/include/boost/asio/execution/set_value.hpp:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/boost/asio/query.hpp:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/include/boost/asio/windows/basic_object_handle.hpp:
+
+/usr/include/boost/asio/impl/redirect_error.hpp:
+
+/usr/include/boost/asio/buffered_stream.hpp:
+
+/usr/include/boost/predef/other/endian.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/impl/utilities_impl.hpp:
+
+/usr/include/boost/assert.hpp:
+
+/usr/include/boost/asio/ip/impl/address_v6.hpp:
 
 /usr/include/boost/asio/detail/impl/socket_ops.ipp:
 
@@ -3790,21 +4684,29 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/ostream:
 
-/usr/include/c++/11/bits/codecvt.h:
-
 /usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/boost/asio/detail/impl/posix_event.ipp:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp:
+
 /usr/include/boost/preprocessor/control/iif.hpp:
+
+../ros/src/fswcmd.cpp:
+
+/usr/include/boost/mpl/aux_/largest_int.hpp:
 
 /usr/include/boost/asio/basic_stream_socket.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/base64/base64.hpp:
-
 /usr/include/c++/11/bits/basic_ios.tcc:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_promisc.h:
+/usr/include/c++/11/bits/codecvt.h:
+
+../ros/src/globals.cpp:
+
+/usr/include/boost/asio/detail/op_queue.hpp:
+
+/usr/include/boost/mpl/multiplies.hpp:
 
 /usr/include/boost/asio/detail/posix_thread.hpp:
 
@@ -3824,19 +4726,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/typeinfo:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/boost/throw_exception.hpp:
-
 /usr/include/unistd.h:
 
 /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
-
-/usr/include/boost/asio/traits/static_require.hpp:
-
-/usr/include/c++/11/type_traits:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/cmath:
 
@@ -3848,25 +4740,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/operators.hpp:
 
-/usr/include/boost/asio/traits/query_free.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
 /usr/include/mysql/mysql.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/boost/asio/redirect_error.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/features-time64.h:
 
@@ -3876,17 +4750,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/cstdint.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/random/random_device.hpp:
+/usr/include/c++/11/filesystem:
 
-/usr/include/boost/predef/architecture/z.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/asm-generic/socket.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/boost/asio/detail/recycling_allocator.hpp:
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /usr/include/boost/mpl/bool.hpp:
 
@@ -3900,27 +4766,61 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/stdlib.h:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h:
+
 /usr/include/boost/date_time/locale_config.hpp:
 
+/usr/include/boost/asio/multiple_exceptions.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/boost/asio/detail/reactive_socket_sendto_op.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/connection_hdl.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_day.hpp:
+
+/usr/include/boost/date_time/time_system_counted.hpp:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/boost/asio/traits/bulk_execute_member.hpp:
+
+/usr/include/c++/11/string:
+
+/usr/include/boost/asio/detail/timer_queue_base.hpp:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/rparam.h:
+
 /usr/include/features.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-/usr/include/boost/asio/impl/executor.hpp:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/boost/asio/detail/reactive_descriptor_service.hpp:
 
 /usr/include/stdio.h:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/network.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+../ros/inc/ros/beacon.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/boost/asio/detail/non_const_lvalue.hpp:
+
+/usr/include/boost/asio/impl/post.hpp:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/boost/asio/redirect_error.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/none.hpp:
 
 /usr/include/boost/asio/traits/set_error_member.hpp:
 
@@ -3933,6 +4833,20 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
 /usr/include/c++/11/cstring:
+
+/usr/include/c++/11/condition_variable:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/boost/asio/traits/static_require.hpp:
+
+/usr/include/c++/11/type_traits:
 
 /usr/include/c++/11/exception:
 
@@ -3948,15 +4862,31 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/descriptor_write_op.hpp:
 
-../utl/inc/utl/ws.h:
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
-/usr/include/boost/asio/ip/impl/address.hpp:
+../utl/inc/utl/ws.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/boost/asio/detail/winsock_init.hpp:
 
+/usr/include/c++/11/bits/stl_algobase.h:
+
 /usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
+
+/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/include/boost/asio/traits/require_concept_free.hpp:
+
+../ros/inc/ros/ros.h:
+
+/usr/include/boost/asio/detail/cstddef.hpp:
+
+/usr/include/boost/asio/detail/global.hpp:
+
+/usr/include/c++/11/bits/nested_exception.h:
 
 /usr/include/boost/mpl/aux_/config/preprocessor.hpp:
 
@@ -3982,37 +4912,31 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/endian.h:
 
-/usr/include/boost/asio/execution/blocking.hpp:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/utilities.hpp:
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/sys/eventfd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/asm-generic/types.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/permessage_deflate/disabled.hpp:
-
-/usr/include/asm-generic/bitsperlong.h:
-
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/c++/11/bits/concept_check.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/endpoint.hpp:
 
 /usr/include/boost/asio/post.hpp:
 
 /usr/include/c++/11/debug/assertions.h:
 
-/usr/include/boost/asio/require.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/message.hpp:
+
+/usr/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp:
+
+/usr/include/boost/asio/detail/wait_handler.hpp:
 
 /usr/include/boost/asio/detail/fenced_block.hpp:
 
@@ -4026,19 +4950,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/stdint.hpp:
-
 /usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/endpoint_base.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-../ros/inc/ros/beacon.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
 
 /usr/include/stdint.h:
 
@@ -4058,8 +4970,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/cctype:
 
-/usr/include/c++/11/unordered_map:
-
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
@@ -4068,21 +4978,17 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_iflist.h:
+
 /usr/include/boost/asio/execution/connect.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/minmax.h:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/boost/asio/ip/basic_endpoint.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/endpoint.hpp:
 
-/usr/include/boost/asio/detail/is_buffer_sequence.hpp:
-
-/usr/include/boost/asio/detail/event.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp:
+/usr/include/c++/11/bits/fs_fwd.h:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -4093,8 +4999,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/internal/types.h:
 
 /usr/include/boost/predef/library/std/modena.h:
 
@@ -4120,15 +5024,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/boost/is_placeholder.hpp:
-
-/usr/include/wchar.h:
-
-/usr/include/boost/asio/execution/impl/bad_executor.ipp:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
 /usr/include/boost/asio/detail/impl/service_registry.hpp:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
@@ -4140,17 +5040,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp:
+
+/usr/include/boost/asio/buffers_iterator.hpp:
+
 /usr/include/c++/11/iosfwd:
 
 /usr/include/boost/regex/v4/match_flags.hpp:
 
 /usr/include/c++/11/initializer_list:
-
-/usr/include/boost/asio/traits/prefer_free.hpp:
-
-/usr/include/boost/asio/detail/timer_queue_ptime.hpp:
-
-/usr/include/boost/asio/detail/strand_service.hpp:
 
 /usr/include/stdc-predef.h:
 
@@ -4182,6 +5080,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/netinet/tcp.h:
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
@@ -4189,6 +5089,12 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/boost/date_time/gregorian/greg_ymd.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/boost/asio/detail/scoped_ptr.hpp:
 
 /usr/include/alloca.h:
 
@@ -4200,7 +5106,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/buffered_stream_fwd.hpp:
 
+/usr/include/boost/asio/high_resolution_timer.hpp:
+
+/usr/include/boost/asio/detail/handler_tracking.hpp:
+
+/usr/include/wctype.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/connection.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -4224,7 +5138,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/version.hpp:
+
 /usr/include/boost/config/detail/suffix.hpp:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/boost/asio/traits/query_member.hpp:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
@@ -4232,15 +5154,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/date_time/time_defs.hpp:
 
+/usr/include/c++/11/utility:
+
+/usr/include/boost/asio/execution/receiver.hpp:
+
 /usr/include/c++/11/ios:
 
 /usr/include/boost/asio/detail/impl/scheduler.ipp:
 
 /usr/include/boost/asio/impl/system_context.ipp:
-
-/usr/include/c++/11/utility:
-
-/usr/include/boost/asio/execution/receiver.hpp:
 
 ../ros/src/report.cpp:
 
@@ -4252,35 +5174,37 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/boost/asio/placeholders.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/boost/asio/impl/system_context.hpp:
+
+/usr/include/c++/11/bits/exception.h:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_types.h:
+
 ../ros/src/v670.cpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/base.hpp:
 
 /usr/include/linux/types.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/usr/include/boost/asio/basic_socket_streambuf.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
 /usr/include/c++/11/istream:
 
 /usr/include/boost/date_time/time_resolution_traits.hpp:
 
-/usr/include/linux/posix_types.h:
-
-/usr/include/boost/mpl/aux_/largest_int.hpp:
-
-../ros/src/fswcmd.cpp:
-
 /usr/include/boost/asio/detail/variadic_templates.hpp:
 
-/usr/include/boost/asio/ip/impl/network_v4.ipp:
-
 /usr/include/inttypes.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/sha1/sha1.hpp:
 
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
@@ -4308,51 +5232,73 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/impl/descriptor_ops.ipp:
 
-/usr/include/c++/11/vector:
+/usr/include/boost/predef/architecture/z.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/uri.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
-/usr/include/limits.h:
+/usr/include/asm-generic/posix_types.h:
 
-/usr/include/c++/11/pstl/execution_defs.h:
+/usr/include/boost/asio/traits/require_free.hpp:
 
-/usr/include/boost/asio/associated_allocator.hpp:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/boost/asio/ip/detail/socket_option.hpp:
+/usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
-/usr/include/c++/11/tr1/beta_function.tcc:
+/usr/include/boost/asio/detail/throw_exception.hpp:
 
-/usr/include/boost/mpl/aux_/config/workaround.hpp:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/linux/stddef.h:
+/usr/include/boost/throw_exception.hpp:
 
-/usr/include/c++/11/bits/refwrap.h:
+/usr/include/boost/asio/ip/network_v4.hpp:
+
+/usr/include/boost/asio/associated_executor.hpp:
+
+/usr/include/boost/is_placeholder.hpp:
+
+/usr/include/wchar.h:
+
+/usr/include/boost/asio/execution/impl/bad_executor.ipp:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/boost/asio/execution/blocking.hpp:
+
+/usr/include/boost/asio/prefer.hpp:
 
 /usr/include/boost/predef/library/std/cxx.h:
 
-/usr/include/boost/preprocessor/logical/and.hpp:
-
 /usr/include/boost/asio/impl/multiple_exceptions.ipp:
 
-/usr/include/boost/regex/config.hpp:
+/usr/include/boost/preprocessor/logical/and.hpp:
 
-/usr/include/boost/preprocessor/control/detail/while.hpp:
+/usr/include/boost/asio/traits/prefer_free.hpp:
 
-/usr/include/c++/11/bits/hashtable.h:
+/usr/include/boost/asio/detail/timer_queue_ptime.hpp:
 
-/usr/include/boost/smart_ptr/detail/shared_count.hpp:
+/usr/include/boost/asio/detail/strand_service.hpp:
 
-/usr/include/boost/core/checked_delete.hpp:
+/usr/include/boost/asio/require.hpp:
+
+/usr/include/boost/current_function.hpp:
+
+/usr/include/boost/asio/execution/blocking_adaptation.hpp:
+
+/usr/include/boost/asio/detail/is_buffer_sequence.hpp:
+
+/usr/include/boost/asio/detail/event.hpp:
 
 /usr/include/boost/asio/detail/posix_event.hpp:
 
 /usr/include/boost/asio/detail/throw_error.hpp:
 
 /usr/include/boost/system/error_code.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection.hpp:
 
 /usr/include/boost/asio/impl/serial_port_base.ipp:
 
@@ -4371,6 +5317,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/io_context.hpp:
 
 /usr/include/boost/system/detail/system_category_posix.hpp:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/error.h:
 
 /usr/include/boost/asio/detail/impl/throw_error.ipp:
 
@@ -4416,6 +5364,10 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
+/usr/include/boost/asio/ip/resolver_query_base.hpp:
+
+/usr/include/boost/asio/execution/relationship.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/boost/asio/execution/detail/submit_receiver.hpp:
@@ -4458,6 +5410,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/jsoncpp/json/value.h:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/c++/11/cstdint:
 
 /usr/include/boost/asio/serial_port_base.hpp:
@@ -4470,9 +5424,13 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/is_executor.hpp:
 
+/usr/include/boost/asio/system_executor.hpp:
+
 /usr/include/boost/asio/impl/system_executor.hpp:
 
 /usr/include/boost/asio/detail/std_fenced_block.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/logger/levels.hpp:
 
 /usr/include/boost/mpl/aux_/static_cast.hpp:
 
@@ -4489,10 +5447,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
 /usr/include/boost/asio/detail/posix_global.hpp:
-
-/usr/include/boost/asio/detail/scheduler.hpp:
-
-/usr/include/boost/mpl/aux_/lambda_support.hpp:
 
 /usr/include/boost/asio/detail/conditionally_enabled_mutex.hpp:
 
@@ -4511,8 +5465,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/detail/impl/posix_thread.ipp:
 
 /usr/include/c++/11/bits/functexcept.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/logger/basic.hpp:
 
 /usr/include/boost/asio/detail/concurrency_hint.hpp:
 
@@ -4534,9 +5486,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/object_pool.hpp:
 
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
 /usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
 
 /usr/include/boost/asio/detail/reactor_op.hpp:
 
@@ -4560,15 +5512,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/ioctls.h:
 
-/usr/include/asm-generic/ioctls.h:
-
 /usr/include/linux/ioctl.h:
 
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/include/asm-generic/ioctl.h:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/endpoint_impl.hpp:
 
 /usr/include/boost/type_traits/is_base_of.hpp:
 
@@ -4576,15 +5524,13 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio.hpp:
 
-/usr/include/boost/predef/platform/mingw64.h:
-
-/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
-
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
 /usr/include/x86_64-linux-gnu/bits/poll.h:
 
 /usr/include/boost/asio/wait_traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/poll2.h:
 
 /usr/include/boost/predef/detail/_exception.h:
 
@@ -4597,6 +5543,12 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/mpl/less.hpp:
 
 /usr/include/boost/asio/detail/impl/timer_queue_set.ipp:
+
+/usr/include/boost/predef/os.h:
+
+/usr/include/mysql/client_plugin.h:
+
+/usr/include/x86_64-linux-gnu/sys/timerfd.h:
 
 /usr/include/x86_64-linux-gnu/bits/timerfd.h:
 
@@ -4611,8 +5563,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/system/detail/std_interoperability.hpp:
 
 /usr/include/boost/type_traits/is_class.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/response.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/epoll.h:
 
@@ -4660,14 +5610,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/thread_group.hpp:
 
-/usr/include/boost/asio/placeholders.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/boost/asio/impl/system_context.hpp:
-
 ../ros/inc/ros/v670.h:
 
 /usr/include/boost/asio/handler_continuation_hook.hpp:
@@ -4678,15 +5620,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/impl/reactive_socket_service_base.ipp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/impl/connection_impl.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /usr/include/boost/predef.h:
 
 /usr/include/boost/date_time/c_time.hpp:
-
-/usr/include/boost/asio/ip/basic_resolver_entry.hpp:
 
 /usr/include/boost/detail/workaround.hpp:
 
@@ -4697,6 +5635,12 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/date_time/time_clock.hpp:
 
 /usr/include/boost/asio/impl/io_context.ipp:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/string.h:
+
+/usr/include/boost/core/checked_delete.hpp:
+
+/usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
@@ -4709,6 +5653,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/hardware/simd/ppc/versions.h:
 
 /usr/include/boost/predef/os/os400.h:
+
+../ros/inc/ros/globals.h:
 
 /usr/include/boost/mpl/aux_/config/ttp.hpp:
 
@@ -4762,6 +5708,10 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
+/usr/include/boost/asio/basic_socket_streambuf.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp:
+
 /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:
 
 /usr/include/c++/11/cerrno:
@@ -4774,9 +5724,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/ip/impl/address_v4.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
+/usr/include/boost/date_time/posix_time/ptime.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_system.hpp:
 
@@ -4791,8 +5739,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/predef/library/std/stdcpp3.h:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/http/impl/request.hpp:
 
 /usr/include/boost/type_traits/is_same.hpp:
 
@@ -4844,6 +5790,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/type_traits/remove_cv.hpp:
 
+../ros/src/bitstream.cpp:
+
 /usr/include/boost/date_time/date_defs.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp:
@@ -4856,15 +5804,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
-/usr/include/boost/date_time/gregorian/greg_day.hpp:
-
-/usr/include/boost/date_time/time_system_counted.hpp:
-
 /usr/include/boost/asio/detail/signal_handler.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_duration.hpp:
-
-/usr/include/boost/date_time/date_duration.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_date.hpp:
 
@@ -4880,10 +5822,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/date_time/posix_time/date_duration_operators.hpp:
 
-/usr/include/boost/asio/associated_executor.hpp:
-
-/usr/include/boost/asio/ip/network_v4.hpp:
-
 /usr/include/boost/mpl/eval_if.hpp:
 
 /usr/include/boost/asio/posix/descriptor_base.hpp:
@@ -4896,19 +5834,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp:
 
-/usr/include/boost/numeric/conversion/detail/meta.hpp:
-
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/asio.hpp:
-
-/usr/include/boost/numeric/conversion/bounds.hpp:
-
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
-
-/usr/include/boost/mpl/aux_/na.hpp:
 
 /usr/include/boost/asio/detail/wait_op.hpp:
 
@@ -4926,19 +5854,9 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/int_fwd.hpp:
 
-/usr/include/boost/date_time/date_duration_types.hpp:
-
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
-
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/boost/mpl/aux_/config/nttp.hpp:
-
-/usr/include/boost/asio/generic/seq_packet_protocol.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/chrono.hpp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_buffer.h:
 
 /usr/include/boost/mpl/aux_/integral_wrapper.hpp:
 
@@ -4970,29 +5888,21 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/preprocessor/repetition/repeat.hpp:
 
-/usr/include/boost/asio/ip/network_v6.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/message_buffer/alloc.hpp:
-
 /usr/include/boost/preprocessor/debug/error.hpp:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/boost/asio/detail/signal_op.hpp:
 
 /usr/include/boost/preprocessor/logical/bitand.hpp:
 
-/usr/include/boost/preprocessor/identity.hpp:
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/connection_base.hpp:
+/usr/include/boost/preprocessor/identity.hpp:
 
 /usr/include/boost/preprocessor/empty.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
 /usr/include/boost/preprocessor/control/while.hpp:
+
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/platforms.hpp:
 
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
@@ -5012,10 +5922,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/impl/write.hpp:
 
-/usr/include/boost/asio/basic_streambuf_fwd.hpp:
-
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
 /usr/include/boost/preprocessor/tuple/elem.hpp:
 
 /usr/include/boost/asio/detail/reactor_fwd.hpp:
@@ -5029,6 +5935,12 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/uses_executor.hpp:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/include/boost/asio/ip/impl/network_v6.hpp:
+
+/usr/include/boost/asio/detail/impl/service_registry.ipp:
+
+/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
 ../utl/inc/utl/db.h:
 
@@ -5045,8 +5957,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/boost/preprocessor/array/elem.hpp:
-
-/usr/include/boost/preprocessor/array/data.hpp:
 
 /usr/include/boost/preprocessor/inc.hpp:
 
@@ -5068,17 +5978,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/tag.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/processors/hybi13.hpp:
-
-/usr/include/boost/mpl/void.hpp:
-
 /usr/include/c++/11/iostream:
 
 /usr/include/boost/mpl/aux_/has_tag.hpp:
 
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/common/type_traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
@@ -5094,8 +5998,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
-/usr/include/boost/mpl/identity.hpp:
-
 /usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/boost/mpl/integral_c.hpp:
@@ -5106,27 +6008,17 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
 /usr/include/boost/asio/ip/bad_address_cast.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
 /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:
-
-/usr/include/boost/asio/detail/op_queue.hpp:
-
-/usr/include/boost/mpl/multiplies.hpp:
-
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/config/asio_no_tls_client.hpp:
 
 /usr/include/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/boost/mpl/times.hpp:
-
-/usr/include/boost/asio/ip/basic_resolver_results.hpp:
-
-/usr/include/boost/asio/ip/basic_resolver_query.hpp:
 
 /usr/include/boost/asio/ip/address_v6_range.hpp:
 
@@ -5142,11 +6034,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/iostream/connection.hpp:
-
 /usr/include/boost/numeric/conversion/detail/converter.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/asio/security/base.hpp:
+/usr/include/boost/mpl/aux_/config/gcc.hpp:
+
+/usr/include/boost/numeric/conversion/bounds.hpp:
 
 /usr/include/boost/asio/ip/address_v4_iterator.hpp:
 
@@ -5164,13 +6056,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/date_time/dst_rules.hpp:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp:
+
 /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
 
 /usr/include/boost/asio/detail/timer_scheduler.hpp:
-
-/usr/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp:
-
-/usr/include/boost/asio/detail/wait_handler.hpp:
 
 /usr/include/boost/asio/executor_work_guard.hpp:
 
@@ -5180,17 +6070,17 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/chrono.hpp:
 
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libparam_client/include/gs/param/types.h:
+
 /usr/include/boost/asio/generic/datagram_protocol.hpp:
 
 /usr/include/boost/asio/impl/io_context.hpp:
 
 /usr/include/boost/asio/detail/completion_handler.hpp:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/transport/base/endpoint.hpp:
+/usr/include/boost/type_traits/is_floating_point.hpp:
 
 /usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/boost/type_traits/is_floating_point.hpp:
 
 /usr/include/boost/asio/impl/defer.hpp:
 
@@ -5208,6 +6098,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/socket_option.hpp:
 
+/home/aclgs/COS_GS/back/lib/websocktapp/websocketpp/common/cpp11.hpp:
+
 /usr/include/boost/asio/detail/reactive_socket_service.hpp:
 
 /usr/include/boost/asio/buffer.hpp:
@@ -5220,8 +6112,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/reactive_socket_recvfrom_op.hpp:
 
-/usr/include/boost/asio/detail/reactive_socket_service_base.hpp:
-
 /usr/include/boost/asio/read_at.hpp:
 
 /usr/include/boost/asio/basic_serial_port.hpp:
@@ -5232,15 +6122,15 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/reactive_socket_send_op.hpp:
 
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_endian.h:
-
-/usr/include/boost/asio/detail/reactive_wait_op.hpp:
-
 /usr/include/boost/asio/detail/resolve_query_op.hpp:
 
 /usr/include/boost/asio/basic_io_object.hpp:
 
 /usr/include/boost/asio/basic_raw_socket.hpp:
+
+/usr/include/boost/asio/basic_seq_packet_socket.hpp:
+
+/usr/include/boost/asio/impl/buffered_read_stream.hpp:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
@@ -5250,7 +6140,7 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/termios.h:
 
-/home/hyvrid/COS_GS/back/lib/websocktapp/websocketpp/extensions/extension.hpp:
+/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
 
@@ -5264,6 +6154,8 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
 
+/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
+
 /usr/include/boost/asio/strand.hpp:
 
 /usr/include/boost/asio/impl/serial_port_base.hpp:
@@ -5274,11 +6166,11 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/detail/push_options.hpp:
 
+../ros/inc/ros/bitstream.h:
+
 /usr/include/boost/mpl/and.hpp:
 
 /usr/include/boost/asio/detail/signal_set_service.hpp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/include/gs/csp/port.h:
 
 /usr/include/boost/asio/detail/impl/signal_set_service.ipp:
 
@@ -5288,21 +6180,19 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 
 /usr/include/boost/asio/basic_socket_acceptor.hpp:
 
+/usr/include/boost/preprocessor/list/reverse.hpp:
+
+/usr/include/boost/asio/basic_streambuf_fwd.hpp:
+
 /usr/include/boost/asio/buffered_read_stream.hpp:
+
+/home/aclgs/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/timestamp.h:
 
 /usr/include/boost/asio/detail/buffered_stream_storage.hpp:
 
 /usr/include/boost/asio/buffered_write_stream.hpp:
 
-/usr/include/boost/predef/architecture.h:
-
-/usr/include/boost/asio/buffered_write_stream_fwd.hpp:
-
 /usr/include/boost/asio/detail/base_from_completion_cond.hpp:
-
-/usr/include/boost/asio/buffers_iterator.hpp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libutil/include/gs/util/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -5321,10 +6211,6 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/impl/detached.hpp:
 
 /usr/include/boost/asio/dispatch.hpp:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/boost/asio/executor.hpp:
 
 /usr/include/boost/asio/ip/unicast.hpp:
 
@@ -5357,31 +6243,3 @@ ros/CMakeFiles/ROS.dir/src/v670.cpp.o: ../ros/src/v670.cpp \
 /usr/include/boost/asio/detail/io_object_impl.hpp:
 
 /usr/include/boost/asio/ip/impl/address_v4.ipp:
-
-/home/hyvrid/COS_GS/back/lib/gscsp/lib/libgscsp/lib/libcsp/include/csp/csp_interface.h:
-
-/usr/include/boost/assert.hpp:
-
-/usr/include/boost/asio/ip/impl/address_v6.hpp:
-
-/usr/include/boost/asio/ip/address_v6_iterator.hpp:
-
-/usr/include/boost/asio/detail/impl/service_registry.ipp:
-
-/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/usr/include/boost/asio/ip/impl/network_v6.hpp:
-
-/usr/include/boost/asio/ip/detail/impl/endpoint.ipp:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/boost/asio/ip/basic_resolver_iterator.hpp:
-
-/usr/include/boost/asio/execution/relationship.hpp:
-
-/usr/include/boost/asio/ip/resolver_query_base.hpp:
-
-/usr/include/boost/asio/ip/resolver_base.hpp:
-
-/usr/include/boost/asio/detail/resolver_service.hpp:

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hyvrid/COS_GS/back/sgs
+CMAKE_SOURCE_DIR = /home/aclgs/COS_GS/back/sgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hyvrid/COS_GS/back/sgs/build
+CMAKE_BINARY_DIR = /home/aclgs/COS_GS/back/sgs/build
 
 # Include any dependencies generated for this target.
 include dcs/CMakeFiles/DCS.dir/depend.make
@@ -72,58 +72,58 @@ include dcs/CMakeFiles/DCS.dir/flags.make
 dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: dcs/CMakeFiles/DCS.dir/flags.make
 dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: ../dcs/src/gs100.cpp
 dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o: dcs/CMakeFiles/DCS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o -MF CMakeFiles/DCS.dir/src/gs100.cpp.o.d -o CMakeFiles/DCS.dir/src/gs100.cpp.o -c /home/hyvrid/COS_GS/back/sgs/dcs/src/gs100.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aclgs/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o"
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o -MF CMakeFiles/DCS.dir/src/gs100.cpp.o.d -o CMakeFiles/DCS.dir/src/gs100.cpp.o -c /home/aclgs/COS_GS/back/sgs/dcs/src/gs100.cpp
 
 dcs/CMakeFiles/DCS.dir/src/gs100.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DCS.dir/src/gs100.cpp.i"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyvrid/COS_GS/back/sgs/dcs/src/gs100.cpp > CMakeFiles/DCS.dir/src/gs100.cpp.i
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aclgs/COS_GS/back/sgs/dcs/src/gs100.cpp > CMakeFiles/DCS.dir/src/gs100.cpp.i
 
 dcs/CMakeFiles/DCS.dir/src/gs100.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DCS.dir/src/gs100.cpp.s"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/dcs/src/gs100.cpp -o CMakeFiles/DCS.dir/src/gs100.cpp.s
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aclgs/COS_GS/back/sgs/dcs/src/gs100.cpp -o CMakeFiles/DCS.dir/src/gs100.cpp.s
 
 dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: dcs/CMakeFiles/DCS.dir/flags.make
 dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: ../dcs/src/gs232b.cpp
 dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o: dcs/CMakeFiles/DCS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o -MF CMakeFiles/DCS.dir/src/gs232b.cpp.o.d -o CMakeFiles/DCS.dir/src/gs232b.cpp.o -c /home/hyvrid/COS_GS/back/sgs/dcs/src/gs232b.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aclgs/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o"
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o -MF CMakeFiles/DCS.dir/src/gs232b.cpp.o.d -o CMakeFiles/DCS.dir/src/gs232b.cpp.o -c /home/aclgs/COS_GS/back/sgs/dcs/src/gs232b.cpp
 
 dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DCS.dir/src/gs232b.cpp.i"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyvrid/COS_GS/back/sgs/dcs/src/gs232b.cpp > CMakeFiles/DCS.dir/src/gs232b.cpp.i
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aclgs/COS_GS/back/sgs/dcs/src/gs232b.cpp > CMakeFiles/DCS.dir/src/gs232b.cpp.i
 
 dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DCS.dir/src/gs232b.cpp.s"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/dcs/src/gs232b.cpp -o CMakeFiles/DCS.dir/src/gs232b.cpp.s
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aclgs/COS_GS/back/sgs/dcs/src/gs232b.cpp -o CMakeFiles/DCS.dir/src/gs232b.cpp.s
 
 dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: dcs/CMakeFiles/DCS.dir/flags.make
 dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: ../dcs/src/kta223.cpp
 dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o: dcs/CMakeFiles/DCS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o -MF CMakeFiles/DCS.dir/src/kta223.cpp.o.d -o CMakeFiles/DCS.dir/src/kta223.cpp.o -c /home/hyvrid/COS_GS/back/sgs/dcs/src/kta223.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aclgs/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o"
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o -MF CMakeFiles/DCS.dir/src/kta223.cpp.o.d -o CMakeFiles/DCS.dir/src/kta223.cpp.o -c /home/aclgs/COS_GS/back/sgs/dcs/src/kta223.cpp
 
 dcs/CMakeFiles/DCS.dir/src/kta223.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DCS.dir/src/kta223.cpp.i"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyvrid/COS_GS/back/sgs/dcs/src/kta223.cpp > CMakeFiles/DCS.dir/src/kta223.cpp.i
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aclgs/COS_GS/back/sgs/dcs/src/kta223.cpp > CMakeFiles/DCS.dir/src/kta223.cpp.i
 
 dcs/CMakeFiles/DCS.dir/src/kta223.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DCS.dir/src/kta223.cpp.s"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/dcs/src/kta223.cpp -o CMakeFiles/DCS.dir/src/kta223.cpp.s
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aclgs/COS_GS/back/sgs/dcs/src/kta223.cpp -o CMakeFiles/DCS.dir/src/kta223.cpp.s
 
 dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: dcs/CMakeFiles/DCS.dir/flags.make
 dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: ../dcs/src/q5signal.cpp
 dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o: dcs/CMakeFiles/DCS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o -MF CMakeFiles/DCS.dir/src/q5signal.cpp.o.d -o CMakeFiles/DCS.dir/src/q5signal.cpp.o -c /home/hyvrid/COS_GS/back/sgs/dcs/src/q5signal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aclgs/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o"
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o -MF CMakeFiles/DCS.dir/src/q5signal.cpp.o.d -o CMakeFiles/DCS.dir/src/q5signal.cpp.o -c /home/aclgs/COS_GS/back/sgs/dcs/src/q5signal.cpp
 
 dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DCS.dir/src/q5signal.cpp.i"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hyvrid/COS_GS/back/sgs/dcs/src/q5signal.cpp > CMakeFiles/DCS.dir/src/q5signal.cpp.i
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aclgs/COS_GS/back/sgs/dcs/src/q5signal.cpp > CMakeFiles/DCS.dir/src/q5signal.cpp.i
 
 dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DCS.dir/src/q5signal.cpp.s"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hyvrid/COS_GS/back/sgs/dcs/src/q5signal.cpp -o CMakeFiles/DCS.dir/src/q5signal.cpp.s
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aclgs/COS_GS/back/sgs/dcs/src/q5signal.cpp -o CMakeFiles/DCS.dir/src/q5signal.cpp.s
 
 # Object files for target DCS
 DCS_OBJECTS = \
@@ -135,34 +135,34 @@ DCS_OBJECTS = \
 # External object files for target DCS
 DCS_EXTERNAL_OBJECTS =
 
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/build.make
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libcurl.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libssl.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: ../../bin/libsgp4s.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: ../../bin/libcsp-client.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: ../../bin/libUTL.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: ../../bin/libIFC.so
-/home/hyvrid/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
-/home/hyvrid/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hyvrid/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/hyvrid/COS_GS/back/bin/libDCS.so"
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DCS.dir/link.txt --verbose=$(VERBOSE)
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/gs100.cpp.o
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/gs232b.cpp.o
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/kta223.cpp.o
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/src/q5signal.cpp.o
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/build.make
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libcurl.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libssl.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: ../../bin/libsgp4s.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: ../../bin/libcsp-client.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: ../../bin/libUTL.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: ../../bin/libIFC.so
+/home/aclgs/COS_GS/back/bin/libDCS.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
+/home/aclgs/COS_GS/back/bin/libDCS.so: dcs/CMakeFiles/DCS.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aclgs/COS_GS/back/sgs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/aclgs/COS_GS/back/bin/libDCS.so"
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DCS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-dcs/CMakeFiles/DCS.dir/build: /home/hyvrid/COS_GS/back/bin/libDCS.so
+dcs/CMakeFiles/DCS.dir/build: /home/aclgs/COS_GS/back/bin/libDCS.so
 .PHONY : dcs/CMakeFiles/DCS.dir/build
 
 dcs/CMakeFiles/DCS.dir/clean:
-	cd /home/hyvrid/COS_GS/back/sgs/build/dcs && $(CMAKE_COMMAND) -P CMakeFiles/DCS.dir/cmake_clean.cmake
+	cd /home/aclgs/COS_GS/back/sgs/build/dcs && $(CMAKE_COMMAND) -P CMakeFiles/DCS.dir/cmake_clean.cmake
 .PHONY : dcs/CMakeFiles/DCS.dir/clean
 
 dcs/CMakeFiles/DCS.dir/depend:
-	cd /home/hyvrid/COS_GS/back/sgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hyvrid/COS_GS/back/sgs /home/hyvrid/COS_GS/back/sgs/dcs /home/hyvrid/COS_GS/back/sgs/build /home/hyvrid/COS_GS/back/sgs/build/dcs /home/hyvrid/COS_GS/back/sgs/build/dcs/CMakeFiles/DCS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aclgs/COS_GS/back/sgs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aclgs/COS_GS/back/sgs /home/aclgs/COS_GS/back/sgs/dcs /home/aclgs/COS_GS/back/sgs/build /home/aclgs/COS_GS/back/sgs/build/dcs /home/aclgs/COS_GS/back/sgs/build/dcs/CMakeFiles/DCS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dcs/CMakeFiles/DCS.dir/depend
 

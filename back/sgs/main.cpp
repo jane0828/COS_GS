@@ -187,12 +187,39 @@ static void on_signal(int) {
     g_run.store(false, std::memory_order_relaxed);
 }
 
+static void parse_args(int argc, char* argv[], std::string& ip, int& port) {
+    // 기본값 설정
+    ip = "192.168.4.25";
+    port = 2001;
+
+    for (int i = 1; i < argc; ++i) {
+        std::string arg = argv[i];
+        if ((arg == "-i" || arg == "--ip") && i + 1 < argc) {
+            ip = argv[++i];
+        } else if ((arg == "-p" || arg == "--port") && i + 1 < argc) {
+            port = std::stoi(argv[++i]);
+        } else if (arg == "-h" || arg == "--help") {
+            printf("Usage: %s [-i <ip>] [-p <port>]\n", argv[0]);
+            printf("Default: -i 192.168.4.25 -p 2001\n");
+            exit(0);
+        }
+    }
+}
+
 int main(int argc, char* argv[])
 {
     std::signal(SIGINT,  on_signal);
     std::signal(SIGTERM, on_signal);
 
+    std::string ip;
+    int port = 0;
+    parse_args(argc, argv, ip, port);
+
+    printf("[CONFIG] Target IP: %s\n", ip.c_str());
+    printf("[CONFIG] Target Port: %d\n", port);
+
     SendRecv srv;
+    srv.set_target(ip, port);
     std::thread t_tcp([&]{ srv.start_recv_tcp(g_run); });
 
 

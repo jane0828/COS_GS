@@ -28,7 +28,7 @@ struct TelemetryFrame {
     uint8_t   payload[TM_MAX_PAYLOAD];// 실제 전송 시에는 payload_len 만큼만 사용
 };
 // === 고정값(스펙) ===
-static constexpr uint32_t TM_PREAMBLE  = 0xA1B2C34D;
+static constexpr uint32_t TM_PREAMBLE  = 0xA1B2C3D4u;
 static constexpr uint32_t TM_POSTAMBLE = ~TM_PREAMBLE;     // 표에 "~0xA1B2C34D"
 static constexpr uint32_t TM_TYPE_TELEMETRY = 0x00000000;       // 표의 Message type 0x00
 static constexpr size_t   TM_FIXED_HEADER = 36;            // 0..35 바이트 (payload 시작 offset)
@@ -55,12 +55,14 @@ public:
     // 파싱 + 디스패치 (성공: 0, 실패: 음수)
     // - buf: 수신 버퍼 전체
     // - n  : 수신 길이
+    int parse_stream(const uint8_t* buf, size_t n);
     int parse_and_dispatch(const uint8_t* buf, size_t n);
     int dispatch_payload(const uint8_t* payload, size_t len);
     int handle_beacon_direct(const uint8_t* payload, size_t len);
     int handle_report_direct(const uint8_t* payload, size_t len);
     int handle_csp_then_dispatch(const uint8_t* payload, size_t len); // TODO
     int handle_hk_direct(const uint8_t* payload, size_t len);         // TODO
+
 
     // (옵션) CRC32 체크 on/off
     void set_crc_check(bool on) { crc_check_ = on; }

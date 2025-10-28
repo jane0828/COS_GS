@@ -134,8 +134,22 @@ static bool pack_one_by_type(const std::string& typeStr, const Json::Value& valu
         uint8_t b; if(!to_bool1(value,b)) return false;
         payload.push_back(b); return true;
     }
+    if (t.rfind("str", 0) == 0) {
+        int len = std::stoi(t.substr(3));
+        if (len <= 0) return false;
+        std::string s = value.asString();
+        if ((int)s.size() > len) return false;
+
+        std::vector<uint8_t> buf(len, 0);
+        std::memcpy(buf.data(), s.data(), s.size());
+
+        payload.insert(payload.end(), buf.begin(), buf.end());
+        return true;
+    }
+
     return false;
 }
+
 static bool pack_from_param_list(const Json::Value& params, std::vector<uint8_t>& payload){
     if(!params.isArray()) return false;
     payload.clear();
@@ -148,13 +162,16 @@ static bool pack_from_param_list(const Json::Value& params, std::vector<uint8_t>
     return true;
 }
 
-// ============ 내부 Telecommand (CCSDS 스타일) ============
+// ============ 내부 Telecommand ============
 static std::vector<uint8_t> build_inner_cmd(uint16_t msgid, uint8_t cc, const std::vector<uint8_t>& payload){
     std::vector<uint8_t> cmd(8 + payload.size(), 0);
     uint16_t mid_be = htons(msgid);
     std::memcpy(&cmd[0], &mid_be, 2);
     cmd[2]=0xC0; cmd[3]=0x00; cmd[4]=0x00;
-    cmd[5]=(uint8_t)(0x01 + payload.size());
+    if (msgid == 6262 && cc == 2) {
+        cmd[5] = 0x4D;
+    }
+    else cmd[5]=(uint8_t)(0x01 + payload.size());
     cmd[6]=cc;
     if(!payload.empty()) std::memcpy(&cmd[8], payload.data(), payload.size());
     uint16_t n=(uint16_t)cmd.size(); uint8_t cs=0xFF; const uint8_t* p=cmd.data();
@@ -163,7 +180,7 @@ static std::vector<uint8_t> build_inner_cmd(uint16_t msgid, uint8_t cc, const st
     return cmd;
 }
 
-// ============ CSP v1 32-bit 헤더 pack (온와이어 BE) ============
+// ============ CSP v1 32-bit 헤더 ============
 static inline uint32_t build_csp_id_be(uint8_t pri, uint8_t src, uint8_t dst,
                                        uint8_t sport, uint8_t dport, uint8_t flags){
     uint32_t ext =
@@ -173,7 +190,7 @@ static inline uint32_t build_csp_id_be(uint8_t pri, uint8_t src, uint8_t dst,
         ((uint32_t)(dport & 0x3F) << 14) |
         ((uint32_t)(sport & 0x3F) <<  8) |
         ((uint32_t)(flags & 0xFF)      );
-    return ext; // put_u32_be가 BE로 씀
+    return ext; // put_u32_be가 BE
 }
 static inline void put_u32_be(std::vector<uint8_t>& out, uint32_t v){
     out.push_back((uint8_t)((v >> 24) & 0xFF));
@@ -182,7 +199,7 @@ static inline void put_u32_be(std::vector<uint8_t>& out, uint32_t v){
     out.push_back((uint8_t)( v        & 0xFF));
 }
 
-// ============ CRC32 (reflected / IEEE 802.3) ============
+// ============ CRC32 (reflected) ============
 static uint32_t GetCRC32(const std::vector<uint8_t>& u8vIn){
     // const uint32_t POLY = 0xEDB88320u;  // 원래 이게 맞는데
     const uint32_t POLY =0x04C11DB7 ;
@@ -316,7 +333,7 @@ static std::vector<uint8_t> EncapsulateTC(const std::vector<uint8_t>& pnData){
     const uint32_t nMsglen = (uint32_t)(sizeof(TC_HEADER) + pnData.size() + 2 * sizeof(uint32_t));
     std::vector<uint8_t> pnOut; pnOut.clear();
 
-    // 헤더(struct 그대로 memcpy) — x86/리눅스에서는 LE 직렬화
+    // 헤더(struct 그대로 memcpy)
     TC_HEADER sTCheader{};
     sTCheader.nPreamble = PREAMBLE;
     sTCheader.nMsgType  = TYPE_TC;
